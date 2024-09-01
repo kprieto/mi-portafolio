@@ -2,7 +2,7 @@
   "name": "mi-portafolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kprieto.github.io/portafolioKarenPrieto/build",
+  "homepage": "https://kprieto.github.io/mi-portafolio/build",
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
