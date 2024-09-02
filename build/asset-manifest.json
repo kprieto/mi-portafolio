@@ -1,23 +1,32 @@
 {
   "files": {
-    "main.css": "/mi-portafolio/build/static/css/main.9e88baa1.css",
-    "main.js": "/mi-portafolio/build/static/js/main.e09881cc.js",
+    "main.css": "/mi-portafolio/build/static/css/main.601ac89e.css",
+    "main.js": "/mi-portafolio/build/static/js/main.bbb7400f.js",
     "static/js/453.2a12872b.chunk.js": "/mi-portafolio/build/static/js/453.2a12872b.chunk.js",
     "static/media/insanity.png": "/mi-portafolio/build/static/media/insanity.f3f4f8724592ebc0b099.png",
+    "static/media/fa-solid-900.ttf": "/mi-portafolio/build/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/mi-portafolio/build/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
     "static/media/bootstrap-icons.woff?": "/mi-portafolio/build/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/fa-solid-900.woff2": "/mi-portafolio/build/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
     "static/media/bootstrap-icons.woff2?": "/mi-portafolio/build/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/fa-brands-400.woff2": "/mi-portafolio/build/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
     "static/media/foto.jpg": "/mi-portafolio/build/static/media/foto.f083287f1a740416d1b6.jpg",
+    "static/media/CV ANA KAREN PRIETO PARRA.pdf": "/mi-portafolio/build/static/media/CV ANA KAREN PRIETO PARRA.64ce472ff6c44c061cf3.pdf",
     "static/media/fortune.jpg": "/mi-portafolio/build/static/media/fortune.197b87fc2c994d982260.jpg",
+    "static/media/fa-regular-400.ttf": "/mi-portafolio/build/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
     "static/media/cerem.jpeg": "/mi-portafolio/build/static/media/cerem.42a2c363d72e045cdec8.jpeg",
     "static/media/PROMUEVE TU NEGOCIO.png": "/mi-portafolio/build/static/media/PROMUEVE TU NEGOCIO.0066f9f0c79a324aae59.png",
+    "static/media/fa-regular-400.woff2": "/mi-portafolio/build/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/mi-portafolio/build/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/xochi.jpg": "/mi-portafolio/build/static/media/xochi.58c24109685933a1d332.jpg",
+    "static/media/fa-v4compatibility.woff2": "/mi-portafolio/build/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/mi-portafolio/build/index.html",
-    "main.9e88baa1.css.map": "/mi-portafolio/build/static/css/main.9e88baa1.css.map",
-    "main.e09881cc.js.map": "/mi-portafolio/build/static/js/main.e09881cc.js.map",
+    "main.601ac89e.css.map": "/mi-portafolio/build/static/css/main.601ac89e.css.map",
+    "main.bbb7400f.js.map": "/mi-portafolio/build/static/js/main.bbb7400f.js.map",
     "453.2a12872b.chunk.js.map": "/mi-portafolio/build/static/js/453.2a12872b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e88baa1.css",
-    "static/js/main.e09881cc.js"
+    "static/css/main.601ac89e.css",
+    "static/js/main.bbb7400f.js"
   ]
 }
