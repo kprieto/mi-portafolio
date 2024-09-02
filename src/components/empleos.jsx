@@ -32,7 +32,7 @@ function Empleos({showDiv}){
             <br></br>
             <div class="row">
                 <div class="col-sm">
-                    <div class="flex flex-col rounded-2xl w-72 bg-[#0a1590] shadow-xl">
+                    <div class="flex flex-col rounded-2xl w-72 bg-[#0a1590] shadow-xl border-2 border-white ">
                         <figure class="flex justify-center items-center rounded-2xl">
                             <img src={fortune} alt="Card Preview" class="size-max rounded-t-2xl"/>
                         </figure>
@@ -48,7 +48,7 @@ function Empleos({showDiv}){
                     </div>
                 </div>
                 <div class="col-sm">
-                    <div class="flex flex-col rounded-2xl w-72 h-full bg-[#0a1590] shadow-xl">
+                    <div class="flex flex-col rounded-2xl w-72 h-full bg-[#0a1590] shadow-xl border-2 border-white">
                         <figure class="flex justify-center items-center rounded-2xl">
                             <img src={cudti} alt="Card Preview" class="size-full rounded-t-2xl"/>
                         </figure>
@@ -64,7 +64,7 @@ function Empleos({showDiv}){
                     </div>
                 </div>
                 <div class="col-sm">
-                    <div class="flex flex-col rounded-2xl w-72 h-full bg-[#0a1590] shadow-xl">
+                    <div class="flex flex-col rounded-2xl w-72 h-full bg-[#0a1590] shadow-xl border-2 border-white">
                         <figure class="flex justify-center items-center ">
                             <img src={xochi} alt="Card Preview" class="size-full rounded-t-2xl"/>
                         </figure>
@@ -83,7 +83,7 @@ function Empleos({showDiv}){
             <br></br>
             <div class="row">
                 <div class="col-sm">
-                    <div class="flex flex-col rounded-2xl w-72 h-full bg-[#0a1590] shadow-xl">
+                    <div class="flex flex-col rounded-2xl w-72 h-full bg-[#0a1590] shadow-xl border-2 border-white">
                             <figure class="flex justify-center items-center rounded-2xl">
                                 <img src={cerem} alt="Card Preview" class="size-full rounded-t-2xl"/>
                             </figure>
@@ -98,7 +98,7 @@ function Empleos({showDiv}){
                         </div>            
                 </div>
                 <div class="col-sm">
-                    <div class="flex flex-col rounded-2xl w-72  h-full bg-[#0a1590] shadow-xl">
+                    <div class="flex flex-col rounded-2xl w-72  h-full bg-[#0a1590] shadow-xl border-2 border-white">
                             <figure class="flex justify-center items-center rounded-2xl">
                                 <img src={promueve} alt="Card Preview" class="size-full rounded-t-2xl"/>
                             </figure>
@@ -112,7 +112,7 @@ function Empleos({showDiv}){
                     </div>            
                 </div>
                 <div class="col-sm">
-                    <div class="flex flex-col rounded-2xl w-72 h-full bg-[#0a1590] shadow-xl">
+                    <div class="flex flex-col rounded-2xl w-72 h-full bg-[#0a1590] shadow-xl border-2 border-white">
                             <figure class="flex justify-center items-center rounded-2xl">
                                 <img src={insanity} alt="Card Preview" class="size-full rounded-t-2xl"/>
                             </figure>

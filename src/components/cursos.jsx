@@ -17,6 +17,10 @@ import ElectricRickshawIcon from '@mui/icons-material/ElectricRickshaw';
 import LockIcon from '@mui/icons-material/Lock';
 import SecurityIcon from '@mui/icons-material/Security';
 import SystemSecurityUpdateGoodIcon from '@mui/icons-material/SystemSecurityUpdateGood';
+import SchoolIcon from '@mui/icons-material/School';
+import PostAddIcon from '@mui/icons-material/PostAdd';
+import AssistantIcon from '@mui/icons-material/Assistant';
+import DataArrayIcon from '@mui/icons-material/DataArray';
 
 function Cursos({showDiv}){
     return(
@@ -42,6 +46,28 @@ function Cursos({showDiv}){
                 <br></br>
                 <br></br>
                 <Timeline position="alternate">
+                <TimelineItem>
+                    <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    variant="body2"
+                    color="white"
+                    >
+                    Presente
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                    <TimelineConnector />
+                    <TimelineDot color="primary">
+                        <SchoolIcon />
+                    </TimelineDot>
+                    <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span" color="white">
+                        Inglés Slang
+                    </Typography>
+                    <Typography color="white">Programa para aprender Inglés.</Typography>
+                    </TimelineContent>
+                </TimelineItem>
                 <TimelineItem>
                     <TimelineOppositeContent
                     sx={{ m: 'auto 0' }}
@@ -137,14 +163,100 @@ function Cursos({showDiv}){
                 <TimelineItem>
                     <TimelineOppositeContent
                     sx={{ m: 'auto 0' }}
+                    variant="body2"
+                    color="white"
+                    >
+                    Agosto 2024
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                    <TimelineConnector />
+                    <TimelineDot color="secondary">
+                        <DataArrayIcon />
+                    </TimelineDot>
+                    <TimelineConnector  sx={{ bgcolor: 'secondary.main' }} />
+                    </TimelineSeparator>
+                    <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span" color="white">
+                    Python: de cero a usuario (con honores)
+                    </Typography>
+                    <Typography color="white">Aprender Python con Jupyter.</Typography>
+                    </TimelineContent>
+                </TimelineItem> 
+                <TimelineItem>
+                    <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    align="right"
+                    variant="body2"
+                    color="white"
+                    >
+                    Agosto 2024
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>                    
+                    <TimelineDot color="primary">
+                        <DataArrayIcon />
+                    </TimelineDot>
+                    <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span" color="white">
+                    Python
+                    </Typography>
+                    <Typography color="white">Iniciación a Python. </Typography>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    variant="body2"
+                    color="white"
+                    >
+                    Agosto 2024
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                    <TimelineConnector />
+                    <TimelineDot color="secondary">
+                        <AssistantIcon />
+                    </TimelineDot>
+                    <TimelineConnector  sx={{ bgcolor: 'secondary.main' }} />
+                    </TimelineSeparator>
+                    <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span" color="white">
+                    Google: Inteligencia Artificial y Productividad
+                    </Typography>
+                    <Typography color="white">Conocer herramientas de IA generativa y Google Gemini.</Typography>
+                    </TimelineContent>
+                </TimelineItem>               
+                <TimelineItem>
+                <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    variant="body2"
+                    color="white"
+                    >
+                    Agosto 2024
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                    <TimelineDot >
+                        <PostAddIcon />
+                    </TimelineDot>
+                    <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span" color="white">
+                        Microsoft Excel
+                    </Typography>
+                    <Typography color="white">Curso de Excel básico a intermedio.</Typography>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
                     align="right"
                     variant="body2"
                     color="white"
                     >
                     Mayo 2022
                     </TimelineOppositeContent>
-                    <TimelineSeparator>
-                    <TimelineConnector />
+                    <TimelineSeparator>                    
                     <TimelineDot color="primary">
                         <DataObjectIcon />
                     </TimelineDot>

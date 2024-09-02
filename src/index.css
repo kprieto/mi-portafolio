@@ -44,6 +44,17 @@ code {
   background-color: #0096EA;
 }
 
+.button {
+  background-color: #0a1590;
+  border-radius: 15px;
+  border: 2px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  }
 
 
 

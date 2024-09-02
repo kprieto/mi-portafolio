@@ -30,7 +30,7 @@ function Skills({ showDiv }){
             <div class="row">
                 <div class="col-sm">
                     <div className="perfil">
-                        <figure className="bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-[#0a1590]">
+                        <figure className="bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-[#0a1590] border-2 border-white">
                             <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
                                 <figcaption className="font-medium">
                                     <div className="text-2xl text-sky-500 dark:text-sky-100 ">
@@ -72,7 +72,7 @@ function Skills({ showDiv }){
                 </div>
                 <div class="col-sm">
                 <div className="perfil">
-                        <figure className="bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-[#0a1590]">
+                        <figure className="bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-[#0a1590] border-2 border-white">
                             <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
                                 <figcaption className="font-medium">
                                     <div className="text-2xl text-sky-500 dark:text-sky-100 ">
@@ -118,7 +118,7 @@ function Skills({ showDiv }){
                 </div>
                 <div class="col-sm">
                 <div className="perfil">
-                        <figure className="bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-[#0a1590]"> 
+                        <figure className="bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-[#0a1590] border-2 border-white"> 
                             <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
                                 <figcaption className="font-medium">
                                     <div className="text-2xl text-sky-500 dark:text-sky-100 ">
@@ -150,7 +150,7 @@ function Skills({ showDiv }){
             <div class="row">
                 <div class="col-sm">
                     <div className="perfil">
-                        <figure className="bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-[#0a1590]"> {/*bg-blue-700 */}
+                        <figure className="bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-[#0a1590] border-2 border-white"> {/*bg-blue-700 */}
                             <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
                                 <figcaption className="font-medium">
                                     <div className="text-2xl text-sky-500 dark:text-sky-100 ">
@@ -172,7 +172,7 @@ function Skills({ showDiv }){
                 </div>  
                 <div class="col-sm">
                     <div className="perfil">
-                        <figure className="bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-[#0a1590]">
+                        <figure className="bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-[#0a1590] border-2 border-white">
                             <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
                                 <figcaption className="font-medium">
                                     <div className="text-2xl text-sky-500 dark:text-sky-100 ">
@@ -194,7 +194,7 @@ function Skills({ showDiv }){
                 </div>
                 <div class="col-sm">
                     <div className="perfil">
-                        <figure className="bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-[#0a1590]">
+                        <figure className="bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-[#0a1590] border-2 border-white">
                             <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
                                 <figcaption className="font-medium">
                                     <div className="text-2xl text-sky-500 dark:text-sky-100 ">
@@ -218,7 +218,7 @@ function Skills({ showDiv }){
             <div class="row">
                 <div class="col-sm">
                     <div className="perfil">
-                        <figure className="bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-[#0a1590]">
+                        <figure className="bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-[#0a1590] border-2 border-white">
                             <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
                                 <figcaption className="font-medium">
                                     <div className="text-2xl text-sky-500 dark:text-sky-100 ">
@@ -248,7 +248,7 @@ function Skills({ showDiv }){
                 </div>  
                 <div class="col-sm">
                     <div className="perfil">
-                        <figure className="bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-[#0a1590]">
+                        <figure className="bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-[#0a1590] border-2 border-white">
                             <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
                                 <figcaption className="font-medium">
                                     <div className="text-2xl text-sky-500 dark:text-sky-100 ">
@@ -266,7 +266,7 @@ function Skills({ showDiv }){
                 </div>
                 <div class="col-sm"> 
                 <div className="perfil">
-                        <figure className="bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-[#0a1590]">
+                        <figure className="bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-[#0a1590] border-2 border-white">
                             <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
                                 <figcaption className="font-medium">
                                     <div className="text-2xl text-sky-500 dark:text-sky-100 ">
