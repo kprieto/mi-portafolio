@@ -64,7 +64,11 @@ function Skills({ showDiv }){
                                 <br></br> 
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style={{width: '35%'}} aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" className="bar"><p class="text-sm font-bold">React</p></div>
-                                </div>            
+                                </div> 
+                                <br></br> 
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style={{width: '40%'}} aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" className="bar"><p class="text-sm font-bold">Tailwind CSS</p></div>
+                                </div>           
                                 </blockquote>                               
                             </div>
                         </figure>

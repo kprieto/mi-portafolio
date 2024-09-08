@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mi-portafolio/build/static/css/main.e3c3703e.css",
-    "main.js": "/mi-portafolio/build/static/js/main.ef722f7c.js",
+    "main.js": "/mi-portafolio/build/static/js/main.afec4be5.js",
     "static/js/453.2a12872b.chunk.js": "/mi-portafolio/build/static/js/453.2a12872b.chunk.js",
     "static/media/insanity.png": "/mi-portafolio/build/static/media/insanity.f3f4f8724592ebc0b099.png",
     "static/media/fa-solid-900.ttf": "/mi-portafolio/build/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
@@ -11,7 +11,7 @@
     "static/media/bootstrap-icons.woff2?": "/mi-portafolio/build/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "static/media/fa-brands-400.woff2": "/mi-portafolio/build/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
     "static/media/foto.jpg": "/mi-portafolio/build/static/media/foto.f083287f1a740416d1b6.jpg",
-    "static/media/CV ANA KAREN PRIETO PARRA.pdf": "/mi-portafolio/build/static/media/CV ANA KAREN PRIETO PARRA.64ce472ff6c44c061cf3.pdf",
+    "static/media/CV ANA KAREN PRIETO PARRA.pdf": "/mi-portafolio/build/static/media/CV ANA KAREN PRIETO PARRA.2bc9c5bcb166ac2b6c5c.pdf",
     "static/media/fortune.jpg": "/mi-portafolio/build/static/media/fortune.197b87fc2c994d982260.jpg",
     "static/media/fa-regular-400.ttf": "/mi-portafolio/build/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
     "static/media/cerem.jpeg": "/mi-portafolio/build/static/media/cerem.42a2c363d72e045cdec8.jpeg",
@@ -22,11 +22,11 @@
     "static/media/fa-v4compatibility.woff2": "/mi-portafolio/build/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/mi-portafolio/build/index.html",
     "main.e3c3703e.css.map": "/mi-portafolio/build/static/css/main.e3c3703e.css.map",
-    "main.ef722f7c.js.map": "/mi-portafolio/build/static/js/main.ef722f7c.js.map",
+    "main.afec4be5.js.map": "/mi-portafolio/build/static/js/main.afec4be5.js.map",
     "453.2a12872b.chunk.js.map": "/mi-portafolio/build/static/js/453.2a12872b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3c3703e.css",
-    "static/js/main.ef722f7c.js"
+    "static/js/main.afec4be5.js"
   ]
 }

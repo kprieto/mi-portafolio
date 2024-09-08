@@ -12,7 +12,7 @@ function Portada({ showDiv, setShowDiv }) {
     }, []);
 
     return (
-        <div className="container"> 
+        <div className="container mx-auto"> 
             <div className="Effect">
                 <Typewriter
                     onInit={(typewriter) => {

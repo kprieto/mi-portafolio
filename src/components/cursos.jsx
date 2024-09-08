@@ -69,6 +69,31 @@ function Cursos({showDiv}){
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
+                <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    variant="body2"
+                    color="white"
+                    >
+                    Presente
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                    <TimelineConnector />
+                    <TimelineDot color="secondary" >
+                        <ComputerIcon />
+                    </TimelineDot>
+                    <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+                    </TimelineSeparator>
+                    <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span" color="white">
+                    Informática Forense
+                    </Typography>
+                    <Typography color="white">Se aprenderán los procedimientos necesarios para obtener información
+                        de una computadora conservando cada sector de la misma en su estado original, sin modificarlo
+                        ni perturbarlo.
+                    </Typography>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
                     <TimelineOppositeContent
                     sx={{ m: 'auto 0' }}
                     align="right"
@@ -78,7 +103,6 @@ function Cursos({showDiv}){
                     Presente
                     </TimelineOppositeContent>
                     <TimelineSeparator>
-                    <TimelineConnector />
                     <TimelineDot>
                         <ComputerIcon />
                     </TimelineDot>
@@ -201,7 +225,7 @@ function Cursos({showDiv}){
                     <Typography variant="h6" component="span" color="white">
                     Python
                     </Typography>
-                    <Typography color="white">Iniciación a Python. </Typography>
+                    <Typography color="white">Introducción a Python. </Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
