@@ -4,6 +4,7 @@ import Skills from '../components/skills';
 import Empleos from '../components/empleos';
 import Cursos from '../components/cursos';
 import CV from '../components/cv';
+import GitHub from '../components/github';
 import {  MDBFooter} from 'mdb-react-ui-kit';
 
 function Secciones() {
@@ -18,6 +19,7 @@ function Secciones() {
       <Skills showDiv={showDiv} /> {/* Pasar showDiv a Skills */}
       <Empleos showDiv={showDiv} /> {/* Pasar showDiv a Empleos */}
       <Cursos showDiv={showDiv} /> {/* Pasar showDiv a Cursos */}
+      <GitHub showDiv={showDiv} /> {/* Pasar showDiv a github */}
       <CV showDiv={showDiv} /> {/* Pasar showDiv a CV */}
       <br></br>
       <br></br>
