@@ -29,6 +29,9 @@ function GITHUB({showDiv}){
                 <a href="https://github.com/kprieto/Python/blob/main/juegoDelAhorcado.py" class="text-white text-2xl visited:text-purple-600 ...">
                     Juego del Ahorcado - Python
                 </a>
+                <a href="https://github.com/kprieto/Python/blob/main/juegoPiedraPapelTijera.py" class="text-white text-2xl visited:text-purple-600 ...">
+                    Juego Piedra, Papel o Tijera - Python
+                </a>
                 </div>
                 <br></br>
                 <br></br>
