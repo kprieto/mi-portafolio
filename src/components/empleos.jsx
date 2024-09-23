@@ -5,7 +5,7 @@ import xochi from "../assets/xochi.jpg"
 import cerem from "../assets/cerem.jpeg"
 import promueve from "../assets/PROMUEVE TU NEGOCIO.png"
 import insanity from "../assets/insanity.png"
-import Carousel from 'react-bootstrap/Carousel';
+
 
 function Empleos({showDiv}){
     return(
