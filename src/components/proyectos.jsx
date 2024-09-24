@@ -24,6 +24,10 @@ import videoRedes from "../assets/REDES.mp4"
 import camara2 from "../assets/camara2.jpg"
 import camara3 from "../assets/camara3.jpg"
 import jacks from "../assets/jacks.jpg"
+import jacks2 from "../assets/jack2.jpg"
+import jacks3 from "../assets/jack3.jpg"
+
+
 
 
 function PROYECTOS({showDiv}){
@@ -123,7 +127,7 @@ function PROYECTOS({showDiv}){
                         </figure>
                     </div>
                 </div>
-                <div class="grid grid-rows-5 grid-cols-3 gap-8">
+                <div class="grid grid-rows-6 grid-cols-3 gap-8">
                     <div>
                         <p className="text-white text-center"> Cableado Estructurado </p>
                         <img src={redes} class="img-thumbnail"  alt="" loading="lazy"/>
@@ -169,6 +173,14 @@ function PROYECTOS({showDiv}){
                     <div> 
                         <p className="text-white text-center"> Jacks </p>
                         <img src={jacks} class="img-thumbnail" alt="" loading="lazy"/>
+                    </div>
+                    <div> 
+                        <p className="text-white text-center"> Jacks </p>
+                        <img src={jacks2} class="img-thumbnail" alt="" loading="lazy"/>
+                    </div>
+                    <div> 
+                        <p className="text-white text-center"> Jacks </p>
+                        <img src={jacks3} class="img-thumbnail" alt="" loading="lazy"/>
                     </div>
                     <div> 
                         <p className="text-white text-center"> Instalación Cámara </p>
