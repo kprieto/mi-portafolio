@@ -40,7 +40,7 @@ function Empleos({showDiv}){
                             <div class="text-2xl font-bold text-center  text-[#f3f4f6] pb-6">IT | Full-Stack Developer | Line Support</div>
                             <div class=" text-xl text-[#f3f4f6] text-justify text-center">Desarrollo de un sistema Web MRP para el control de procesos
                                     de los diferentes departamentos de producción para la impresión de camisetas y poder tener información actualizada
-                                    en tiempo real con todos los departamentos.</div>
+                                    en tiempo real con todos los departamentos. Soporte técnico y Redes.</div>
                             {/* <div class="flex justify-end pt-6">
                                 <button class="bg-[#7e22ce] text-[#ffffff]  font-bold text-base  p-3 rounded-lg hover:bg-purple-800 active:scale-95 transition-transform transform">Try it out!</button>
                             </div> */}

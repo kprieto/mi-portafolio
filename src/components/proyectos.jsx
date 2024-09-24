@@ -21,6 +21,10 @@ import elevador from "../assets/ELEVADOR.jpg"
 import viking from "../assets/VIKING.jpg"
 import chechadores from "../assets/CHECADORES.jpg"
 import videoRedes from "../assets/REDES.mp4"
+import camara2 from "../assets/camara2.jpg"
+import camara3 from "../assets/camara3.jpg"
+import jacks from "../assets/jacks.jpg"
+
 
 function PROYECTOS({showDiv}){
     return(
@@ -119,10 +123,10 @@ function PROYECTOS({showDiv}){
                         </figure>
                     </div>
                 </div>
-                <div class="grid grid-rows-4 grid-cols-3 gap-8">
+                <div class="grid grid-rows-5 grid-cols-3 gap-8">
                     <div>
-                        <p className="text-white text-center"> Redes </p>
-                        <img  src={redes} class="img-thumbnail"  alt="" loading="lazy"/>
+                        <p className="text-white text-center"> Cableado Estructurado </p>
+                        <img src={redes} class="img-thumbnail"  alt="" loading="lazy"/>
                     </div>
                     <div>
                         <p className="text-white text-center"> Cableado </p>
@@ -163,14 +167,28 @@ function PROYECTOS({showDiv}){
                         </video>
                     </div>
                     <div> 
-                        <p className="text-white text-center"> IT - Checadores </p>
+                        <p className="text-white text-center"> Jacks </p>
+                        <img src={jacks} class="img-thumbnail" alt="" loading="lazy"/>
+                    </div>
+                    <div> 
+                        <p className="text-white text-center"> Instalación Cámara </p>
+                        <img src={camara2} class="img-thumbnail" alt="" loading="lazy"/>
+                    </div> 
+                    <div> 
+                        <p className="text-white text-center"> Instalación Cámara </p>
+                        <img src={camara3} class="img-thumbnail" alt="" loading="lazy"/>
+                    </div>
+                    <div> 
+                        <p className="text-white text-center"> Instalación Checadores </p>
                         <img src={chechadores} class="img-thumbnail" alt="" loading="lazy"/>
                     </div> 
                     <div> 
-                        <p className="text-white text-center"> IT - Generador de tonos </p>
+                        <p className="text-white text-center"> Instalación Generador de tonos </p>
                         <img src={viking} class="img-thumbnail" alt="" loading="lazy"/>
                     </div>                       
-                </div>            
+                </div> 
+                <br></br> 
+                <br></br>           
             </div>
             
         )}

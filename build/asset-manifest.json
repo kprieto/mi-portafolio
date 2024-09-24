@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mi-portafolio/build/static/css/main.9e028dfb.css",
-    "main.js": "/mi-portafolio/build/static/js/main.4d7c19e9.js",
+    "main.css": "/mi-portafolio/build/static/css/main.814cc164.css",
+    "main.js": "/mi-portafolio/build/static/js/main.eba7e92c.js",
     "static/js/453.2a12872b.chunk.js": "/mi-portafolio/build/static/js/453.2a12872b.chunk.js",
     "static/media/REDES.mp4": "/mi-portafolio/build/static/media/REDES.2ac79cf6e7067c6da6d2.mp4",
     "static/media/insanity.png": "/mi-portafolio/build/static/media/insanity.f3f4f8724592ebc0b099.png",
@@ -27,8 +27,11 @@
     "static/media/LISTA_ORDENES.jpg": "/mi-portafolio/build/static/media/LISTA_ORDENES.b39227e95ce2aec5b1e5.jpg",
     "static/media/ORDENES.jpg": "/mi-portafolio/build/static/media/ORDENES.39e76023aa946b19582e.jpg",
     "static/media/fa-brands-400.woff2": "/mi-portafolio/build/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/camara2.jpg": "/mi-portafolio/build/static/media/camara2.21187a897e3cbdbda457.jpg",
+    "static/media/jacks.jpg": "/mi-portafolio/build/static/media/jacks.1f2bd9301e521ce4c95e.jpg",
     "static/media/foto.jpg": "/mi-portafolio/build/static/media/foto.f083287f1a740416d1b6.jpg",
     "static/media/CV ANA KAREN PRIETO PARRA.pdf": "/mi-portafolio/build/static/media/CV ANA KAREN PRIETO PARRA.2bc9c5bcb166ac2b6c5c.pdf",
+    "static/media/camara3.jpg": "/mi-portafolio/build/static/media/camara3.8d3fd61549dd86464090.jpg",
     "static/media/MENU.jpg": "/mi-portafolio/build/static/media/MENU.3d32ecbe6a40f411b797.jpg",
     "static/media/REDES5.jpg": "/mi-portafolio/build/static/media/REDES5.401166b5cc339d06d12d.jpg",
     "static/media/REDES2.jpg": "/mi-portafolio/build/static/media/REDES2.a9863ed12351d8f782ad.jpg",
@@ -43,12 +46,12 @@
     "static/media/xochi.jpg": "/mi-portafolio/build/static/media/xochi.58c24109685933a1d332.jpg",
     "static/media/fa-v4compatibility.woff2": "/mi-portafolio/build/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/mi-portafolio/build/index.html",
-    "main.9e028dfb.css.map": "/mi-portafolio/build/static/css/main.9e028dfb.css.map",
-    "main.4d7c19e9.js.map": "/mi-portafolio/build/static/js/main.4d7c19e9.js.map",
+    "main.814cc164.css.map": "/mi-portafolio/build/static/css/main.814cc164.css.map",
+    "main.eba7e92c.js.map": "/mi-portafolio/build/static/js/main.eba7e92c.js.map",
     "453.2a12872b.chunk.js.map": "/mi-portafolio/build/static/js/453.2a12872b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e028dfb.css",
-    "static/js/main.4d7c19e9.js"
+    "static/css/main.814cc164.css",
+    "static/js/main.eba7e92c.js"
   ]
 }
