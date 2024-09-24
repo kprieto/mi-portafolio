@@ -27,9 +27,6 @@ import jacks from "../assets/jacks.jpg"
 import jacks2 from "../assets/jack2.jpg"
 import jacks3 from "../assets/jack3.jpg"
 
-
-
-
 function PROYECTOS({showDiv}){
     return(
         <>
