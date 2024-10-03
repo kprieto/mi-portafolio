@@ -35,6 +35,9 @@ function GITHUB({showDiv}){
                 <a href="https://github.com/kprieto/Python/blob/main/juegoTrivia.py" class="text-white text-2xl visited:text-purple-600 ...">
                     Juego de Trivia - Python
                 </a>
+                <a href="https://github.com/kprieto/Python/blob/main/ProyectoCatalagoPeliculas/CatalogoPelicula.py" class="text-white text-2xl visited:text-purple-600 ...">
+                    Catálogo de Películas - Python
+                </a>
                 </div>
                 <br></br>
                 <br></br>
