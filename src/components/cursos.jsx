@@ -21,6 +21,9 @@ import SchoolIcon from '@mui/icons-material/School';
 import PostAddIcon from '@mui/icons-material/PostAdd';
 import AssistantIcon from '@mui/icons-material/Assistant';
 import DataArrayIcon from '@mui/icons-material/DataArray';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import SupervisorAccountIcon from '@mui/icons-material/SupervisorAccount';
+import BackupIcon from '@mui/icons-material/Backup';
 
 function Cursos({showDiv}){
     return(
@@ -46,6 +49,28 @@ function Cursos({showDiv}){
                 <br></br>
                 <br></br>
                 <Timeline position="alternate">
+                <TimelineItem>
+                    <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    variant="body2"
+                    color="white"
+                    >
+                    Presente
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                    <TimelineConnector />
+                    <TimelineDot>
+                        <BackupIcon />
+                    </TimelineDot>
+                    <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span" color="white">
+                        Bootcamp De Bases de Datos en la nube con Azure
+                    </Typography>
+                    <Typography color="white">Comprensión sólida de los principios fundamentales de los datos en la nube.</Typography>
+                    </TimelineContent>
+                </TimelineItem>
                 <TimelineItem>
                     <TimelineOppositeContent
                     sx={{ m: 'auto 0' }}
@@ -113,7 +138,7 @@ function Cursos({showDiv}){
                         Curso intensivo python
                     </Typography>
                     <Typography color="white">Python es un lenguaje de programación versátil y fácil de aprender
-                    en CODEEN</Typography>
+                    en CODEEN / ADA</Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -190,14 +215,57 @@ function Cursos({showDiv}){
                     variant="body2"
                     color="white"
                     >
-                    Agosto 2024
+                    Octubre 2024
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                    <TimelineDot color="primary">
+                        <SupervisorAccountIcon />
+                    </TimelineDot>
+                    <TimelineConnector/>
+                    </TimelineSeparator>
+                    <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span" color="white">
+                    Fundamentos de Scrum
+                    </Typography>
+                    <Typography color="white">Compresión para Cualquier Industria no importando la especialidad.</Typography>
+                    </TimelineContent>
+                </TimelineItem> 
+                <TimelineItem>
+                    <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    variant="body2"
+                    color="white"
+                    >
+                    Septiembre 2024
                     </TimelineOppositeContent>
                     <TimelineSeparator>
                     <TimelineConnector />
                     <TimelineDot color="secondary">
-                        <DataArrayIcon />
+                        <GitHubIcon />
                     </TimelineDot>
                     <TimelineConnector  sx={{ bgcolor: 'secondary.main' }} />
+                    </TimelineSeparator>
+                    <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span" color="white">
+                    
+                    GitHub Actions
+                    </Typography>
+                    <Typography color="white">Aprender GitHub Actions.</Typography>
+                    </TimelineContent>
+                </TimelineItem> 
+                <TimelineItem>
+                    <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    variant="body2"
+                    color="white"
+                    >
+                    Agosto 2024
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                    <TimelineDot>
+                        <DataArrayIcon />
+                    </TimelineDot>
+                    <TimelineConnector/>
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span" color="white">

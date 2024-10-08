@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mi-portafolio/build/static/css/main.23114ad7.css",
-    "main.js": "/mi-portafolio/build/static/js/main.8500c9b2.js",
+    "main.js": "/mi-portafolio/build/static/js/main.38b23892.js",
     "static/js/453.2a12872b.chunk.js": "/mi-portafolio/build/static/js/453.2a12872b.chunk.js",
     "static/media/REDES.mp4": "/mi-portafolio/build/static/media/REDES.2ac79cf6e7067c6da6d2.mp4",
     "static/media/insanity.png": "/mi-portafolio/build/static/media/insanity.f3f4f8724592ebc0b099.png",
@@ -49,11 +49,11 @@
     "static/media/fa-v4compatibility.woff2": "/mi-portafolio/build/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/mi-portafolio/build/index.html",
     "main.23114ad7.css.map": "/mi-portafolio/build/static/css/main.23114ad7.css.map",
-    "main.8500c9b2.js.map": "/mi-portafolio/build/static/js/main.8500c9b2.js.map",
+    "main.38b23892.js.map": "/mi-portafolio/build/static/js/main.38b23892.js.map",
     "453.2a12872b.chunk.js.map": "/mi-portafolio/build/static/js/453.2a12872b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.23114ad7.css",
-    "static/js/main.8500c9b2.js"
+    "static/js/main.38b23892.js"
   ]
 }
