@@ -1,10 +1,16 @@
-# Getting Started with Create React App
+# Portafolio Personal de Ana Karen Prieto Parra <img src="https://github.com/kprieto/mi-portafolio/blob/main/src/assets/foto.jpg" alt="Descripción de la imagen" width="50" height="50">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+IT | FULL-STACK DEVELOPER | LINE SUPPORT
 
-## Available Scripts
+## Descripción
+Este repositorio es mi portafolio personal, donde muestro mi página con la experiencia que he obtenido en el ámbito de IT, Full-Stack Developer y Line Support.
 
-In the project directory, you can run:
+## Skills
+
+> [!NOTE]
+> A continuación mencionaré las habilidades adquiridas hasta este momento:
+
+
 
 ### `npm start`
 
