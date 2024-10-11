@@ -50,7 +50,7 @@ function Cursos({showDiv}){
                 <br></br>
                 <Timeline position="alternate">
                 <TimelineItem>
-                    <TimelineOppositeContent
+                <TimelineOppositeContent
                     sx={{ m: 'auto 0' }}
                     variant="body2"
                     color="white"
@@ -59,6 +59,28 @@ function Cursos({showDiv}){
                     </TimelineOppositeContent>
                     <TimelineSeparator>
                     <TimelineConnector />
+                    <TimelineDot color="secondary" >
+                        <DataArrayIcon />
+                    </TimelineDot>
+                    <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+                    </TimelineSeparator>
+                    <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span" color="white">
+                    Bootcamp de Java Profesional
+                    </Typography>
+                    <Typography color="white">Se aprendio los temas fundamentales de Java.
+                    </Typography>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    variant="body2"
+                    color="white"
+                    >
+                    Presente
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
                     <TimelineDot>
                         <BackupIcon />
                     </TimelineDot>

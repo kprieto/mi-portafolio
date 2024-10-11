@@ -268,6 +268,24 @@ function Skills({ showDiv }){
                         </figure>
                     </div>
                 </div>
+                <div class="col-sm">
+                    <div className="perfil">
+                        <figure className="bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-[#0a1590] border-2 border-white">
+                            <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
+                                <figcaption className="font-medium">
+                                    <div className="text-2xl text-sky-500 dark:text-sky-100 ">
+                                        METODOLOGÍAS AGÍLES
+                                    </div>
+                                </figcaption>
+                                <blockquote>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style={{width: '35%'}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" className="bar"><p class="text-sm font-bold">Scrum</p></div>
+                                </div>                                         
+                                </blockquote>                               
+                            </div>
+                        </figure>
+                    </div>
+                </div>
                 <div class="col-sm"> 
                 <div className="perfil">
                         <figure className="bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-[#0a1590] border-2 border-white">
