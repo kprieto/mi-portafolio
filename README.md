@@ -30,5 +30,5 @@ Este repositorio es mi portafolio personal, donde muestro mi página con la expe
 * React
 
 ## Contacto
-Estoy siempre en busca de nuevos desafíos en el mundo del desarrollo y la tecnología. Si estás interesado en colaborar o tienes alguna oportunidad que creas que encajaría conmigo, no dudes en contactarme a través de anakarenprieto@live.com o [LinkedIn](https://www.linkedin.com/in/ana-karen-prieto).
+Estoy siempre en busca de nuevos desafíos en el mundo del desarrollo y la tecnología. Si estás interesado en colaborar o tienes alguna oportunidad que creas que encajaría conmigo, no dudes en contactarme a través de [Email](mailto:anakarenprieto@live.com) o [LinkedIn](https://www.linkedin.com/in/ana-karen-prieto).
 
