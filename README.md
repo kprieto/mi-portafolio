@@ -1,4 +1,4 @@
-#Ana Karen Prieto Parra <img src="https://github.com/kprieto/mi-portafolio/blob/main/src/assets/foto.jpg" alt="Descripción de la imagen" width="50" height="50">
+## ¡Hola! Soy Ana Karen Prieto Parra <img src="https://github.com/kprieto/mi-portafolio/blob/main/src/assets/foto.jpg" alt="Descripción de la imagen" width="50" height="50">
 
 IT | FULL-STACK DEVELOPER | LINE SUPPORT
 
@@ -29,4 +29,6 @@ Este repositorio es mi portafolio personal, donde muestro mi página con la expe
 * JavaScript
 * React
 
+## Contacto
+Estoy siempre en busca de nuevos desafíos en el mundo del desarrollo y la tecnología. Si estás interesado en colaborar o tienes alguna oportunidad que creas que encajaría conmigo, no dudes en contactarme a través de anakarenprieto@live.com o [LinkedIn](www.linkedin.com/in/ana-karen-prieto).
 
