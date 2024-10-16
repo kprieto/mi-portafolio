@@ -26,17 +26,8 @@ function GITHUB({showDiv}){
                 <br></br>
                 <br></br> 
                 <div class="d-grid gap-2 col-6 mx-auto">
-                <a href="https://github.com/kprieto/Python/blob/main/juegoDelAhorcado.py" class="text-white text-2xl visited:text-purple-600 ...">
-                    Juego del Ahorcado - Python
-                </a>
-                <a href="https://github.com/kprieto/Python/blob/main/juegoPiedraPapelTijera.py" class="text-white text-2xl visited:text-purple-600 ...">
-                    Juego Piedra, Papel o Tijera - Python
-                </a>
-                <a href="https://github.com/kprieto/Python/blob/main/juegoTrivia.py" class="text-white text-2xl visited:text-purple-600 ...">
-                    Juego de Trivia - Python
-                </a>
-                <a href="https://github.com/kprieto/Python/blob/main/ProyectoCatalagoPeliculas/CatalogoPelicula.py" class="text-white text-2xl visited:text-purple-600 ...">
-                    Catálogo de Películas - Python
+                <a href="https://github.com/kprieto/Python" class="text-white text-2xl visited:text-purple-600 ...">
+                    Proyectos con Python
                 </a>
                 </div>
                 <br></br>

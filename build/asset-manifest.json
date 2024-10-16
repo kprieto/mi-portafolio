@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mi-portafolio/build/static/css/main.23114ad7.css",
-    "main.js": "/mi-portafolio/build/static/js/main.af98d8a1.js",
+    "main.js": "/mi-portafolio/build/static/js/main.f6bf1c99.js",
     "static/js/453.2a12872b.chunk.js": "/mi-portafolio/build/static/js/453.2a12872b.chunk.js",
     "static/media/REDES.mp4": "/mi-portafolio/build/static/media/REDES.2ac79cf6e7067c6da6d2.mp4",
     "static/media/insanity.png": "/mi-portafolio/build/static/media/insanity.f3f4f8724592ebc0b099.png",
@@ -31,7 +31,7 @@
     "static/media/camara2.jpg": "/mi-portafolio/build/static/media/camara2.21187a897e3cbdbda457.jpg",
     "static/media/jacks.jpg": "/mi-portafolio/build/static/media/jacks.1f2bd9301e521ce4c95e.jpg",
     "static/media/foto.jpg": "/mi-portafolio/build/static/media/foto.f083287f1a740416d1b6.jpg",
-    "static/media/CV ANA KAREN PRIETO PARRA.pdf": "/mi-portafolio/build/static/media/CV ANA KAREN PRIETO PARRA.7c7b65364bb79d09812f.pdf",
+    "static/media/CV ANA KAREN PRIETO PARRA.pdf": "/mi-portafolio/build/static/media/CV ANA KAREN PRIETO PARRA.9bcf0f2d57f101d1b983.pdf",
     "static/media/camara3.jpg": "/mi-portafolio/build/static/media/camara3.8d3fd61549dd86464090.jpg",
     "static/media/MENU.jpg": "/mi-portafolio/build/static/media/MENU.3d32ecbe6a40f411b797.jpg",
     "static/media/jack2.jpg": "/mi-portafolio/build/static/media/jack2.19f7675551198a147df9.jpg",
@@ -49,11 +49,11 @@
     "static/media/fa-v4compatibility.woff2": "/mi-portafolio/build/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/mi-portafolio/build/index.html",
     "main.23114ad7.css.map": "/mi-portafolio/build/static/css/main.23114ad7.css.map",
-    "main.af98d8a1.js.map": "/mi-portafolio/build/static/js/main.af98d8a1.js.map",
+    "main.f6bf1c99.js.map": "/mi-portafolio/build/static/js/main.f6bf1c99.js.map",
     "453.2a12872b.chunk.js.map": "/mi-portafolio/build/static/js/453.2a12872b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.23114ad7.css",
-    "static/js/main.af98d8a1.js"
+    "static/js/main.f6bf1c99.js"
   ]
 }
