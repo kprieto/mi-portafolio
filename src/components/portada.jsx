@@ -44,7 +44,7 @@ function Portada({ showDiv, setShowDiv }) {
                                 <div className="md:text-2xl text-sky-500 dark:text-sky-400 ">
                                     ANA KAREN PRIETO PARRA
                                 </div>
-                                <div className="text-slate-700 dark:text-slate-500">
+                                <div className="md:text-lg text-slate-700 dark:text-slate-500">
                                     FULL-STACK DEVELOPER | IT | LINE SUPPORT
                                 </div>
                             </figcaption>
