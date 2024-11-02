@@ -57,9 +57,6 @@ function Empleos({showDiv}){
                             <div class=" text-xl text-[#f3f4f6] text-justify text-center">Desarrollo orientado objetos utilizando Java Spring Boot MVC para los diferentes departamentos de la UABC.
                             Encargada de elaboración de documentación.
                             </div>
-                            {/* <div class="flex justify-end pt-6">
-                                <button class="bg-[#7e22ce] text-[#ffffff]  font-bold text-base  p-3 rounded-lg hover:bg-purple-800 active:scale-95 transition-transform transform">Try it out!</button>
-                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -72,9 +69,6 @@ function Empleos({showDiv}){
                             <div class="text-2xl font-bold  text-center text-[#f3f4f6] pb-6">Desarrollador de Sistema</div>
                             <div class=" text-xl text-[#f3f4f6] text-justify text-center">Desarrollo estructurado en la realización de petición de
                             sistemas para los diferentes departamentos de la universidad.</div>
-                            {/* <div class="flex justify-end pt-6">
-                                <button class="bg-[#7e22ce] text-[#ffffff]  font-bold text-base  p-3 rounded-lg hover:bg-purple-800 active:scale-95 transition-transform transform">Try it out!</button>
-                            </div> */}
                         </div>
                     </div>
                 </div>                

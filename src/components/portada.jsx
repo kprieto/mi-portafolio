@@ -33,10 +33,10 @@ function Portada({ showDiv, setShowDiv }) {
                         <img className="w-54 h-54 md:w-80 md:h-auto md:rounded-none rounded-full mx-auto" src={foto} alt="" width="384" height="512"/>
                         <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
                             <blockquote>
-                                <p className="text-justify text-lg font-medium text-white EffectType">Profesional versátil que maneja tanto el desarrollo del front-end como del back-end de aplicaciones web y de escritorio. 
+                                <p className="text-justify text-base sm:text-lg md:text-xl font-medium text-white EffectType">Profesional versátil que maneja tanto el desarrollo del front-end como del back-end de aplicaciones web y de escritorio. 
                                     Mi principal objetivo es garantizar que todas las partes del sistema funcionen sin problemas y de manera eficiente.
                                 </p>
-                                <p className="text-justify text-lg font-medium text-white EffectType">Profesional responsable de la instalación, mantenimiento y soporte de sistemas de hardware, software, y redes. 
+                                <p className="text-justify text-base sm:text-lg md:text-xl font-medium text-white EffectType">Profesional responsable de la instalación, mantenimiento y soporte de sistemas de hardware, software, y redes. 
                                     Mi principal objetivo es garantizar que los sistemas informáticos funcionen de manera eficiente y segura, proporcionando soporte técnico a los usuarios cuando sea necesario.
                                 </p>
                             </blockquote>
