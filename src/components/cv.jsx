@@ -34,9 +34,12 @@ function CV({showDiv}){
                 <br></br>
                 <br></br> 
                 <div class="d-grid gap-2 col-6 mx-auto">
-                    <button type="button" class="button btn-lg " onClick={onButtonClick}>
+                    <a href="https://www.canva.com/design/DAGtv6lkITg/Am8E_OznAGkNRPyOCutaxA/edit?utm_content=DAGtv6lkITg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="text-white text-2xl visited:text-purple-600 ...">
+                        Visualizar mi CV
+                    </a>
+{/*                     <button type="button" class="button btn-lg " onClick={onButtonClick}>
                         Descarga mi CV
-                    </button>
+                    </button> */}
                 </div>
             </div>
         )}

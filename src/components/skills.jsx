@@ -109,12 +109,24 @@ function Skills({ showDiv }){
                                 </div> 
                                 <br></br> 
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style={{width: '35%'}} aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" className="bar"><p class="text-sm font-bold">Node.js</p></div>
+                                    <div class="progress-bar" role="progressbar" style={{width: '50%'}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" className="bar"><p class="text-sm font-bold">Node.js</p></div>
                                 </div>
                                 <br></br>
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style={{width: '50%'}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" className="bar"><p class="text-sm font-bold">WinForms .NET</p></div>
-                                </div>            
+                                </div>   
+                                <br></br>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style={{width: '50%'}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" className="bar"><p class="text-sm font-bold">Typescript</p></div>
+                                </div>   
+                                <br></br>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style={{width: '50%'}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" className="bar"><p class="text-sm font-bold">ExpressJS</p></div>
+                                </div> 
+                                <br></br>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style={{width: '50%'}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" className="bar"><p class="text-sm font-bold">API Rest / CRUD</p></div>
+                                </div>     
                                 </blockquote>                               
                             </div>
                         </figure>

@@ -29,6 +29,18 @@ function GITHUB({showDiv}){
                 <a href="https://github.com/kprieto/Python" class="text-white text-2xl visited:text-purple-600 ...">
                     Proyectos con Python
                 </a>
+                <a href="https://github.com/kprieto/springAdopciones" class="text-white text-2xl visited:text-purple-600 ...">
+                    Proyecto Adopción de Mascotas con Java y SpringBoot
+                </a>
+                <a href="https://github.com/kprieto/Modulo_3_Backend/tree/main/Clase15/Ejercicios/Api%20Rest" class="text-white text-2xl visited:text-purple-600 ...">
+                    Proyecto Api Rest Node.js, ExpressJS y Typescript
+                </a>
+                <a href="https://github.com/kprieto/ADA_JAVASCRIPT/tree/main/MODULO_1_JS" class="text-white text-2xl visited:text-purple-600 ...">
+                    Clases y Ejercicios de Introducción a JavaScript
+                </a>
+                <a href="https://github.com/kprieto/Integrador_NodeJS" class="text-white text-2xl visited:text-purple-600 ...">
+                    Proyecto de Api de gestión de una biblioteca con Node.js
+                </a>
                 </div>
                 <br></br>
                 <br></br>

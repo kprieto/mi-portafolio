@@ -24,6 +24,7 @@ import DataArrayIcon from '@mui/icons-material/DataArray';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import SupervisorAccountIcon from '@mui/icons-material/SupervisorAccount';
 import BackupIcon from '@mui/icons-material/Backup';
+import HtmlIcon from '@mui/icons-material/Html';
 
 function Cursos({showDiv}){
     return(
@@ -62,7 +63,7 @@ function Cursos({showDiv}){
                     <TimelineDot color="secondary" >
                         <DataArrayIcon />
                     </TimelineDot>
-                    <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+                    <TimelineConnector sx={{ bgcolor: 'secondary.main' }}  />
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span" color="white">
@@ -70,49 +71,6 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Se aprendio los temas fundamentales de Java.
                     </Typography>
-                    </TimelineContent>
-                </TimelineItem>
-                <TimelineItem>
-                    <TimelineOppositeContent
-                    sx={{ m: 'auto 0' }}
-                    variant="body2"
-                    color="white"
-                    >
-                    Presente
-                    </TimelineOppositeContent>
-                    <TimelineSeparator>
-                    <TimelineDot>
-                        <BackupIcon />
-                    </TimelineDot>
-                    <TimelineConnector />
-                    </TimelineSeparator>
-                    <TimelineContent sx={{ py: '12px', px: 2 }}>
-                    <Typography variant="h6" component="span" color="white">
-                        Bootcamp De Bases de Datos en la nube con Azure
-                    </Typography>
-                    <Typography color="white">Comprensión sólida de los principios fundamentales de los datos en la nube.</Typography>
-                    </TimelineContent>
-                </TimelineItem>
-                <TimelineItem>
-                    <TimelineOppositeContent
-                    sx={{ m: 'auto 0' }}
-                    variant="body2"
-                    color="white"
-                    >
-                    Presente
-                    </TimelineOppositeContent>
-                    <TimelineSeparator>
-                    <TimelineConnector />
-                    <TimelineDot color="primary">
-                        <SchoolIcon />
-                    </TimelineDot>
-                    <TimelineConnector />
-                    </TimelineSeparator>
-                    <TimelineContent sx={{ py: '12px', px: 2 }}>
-                    <Typography variant="h6" component="span" color="white">
-                        Inglés Slang
-                    </Typography>
-                    <Typography color="white">Programa para aprender Inglés.</Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -124,11 +82,10 @@ function Cursos({showDiv}){
                     Presente
                     </TimelineOppositeContent>
                     <TimelineSeparator>
-                    <TimelineConnector />
-                    <TimelineDot color="secondary" >
+                    <TimelineDot>
                         <ComputerIcon />
                     </TimelineDot>
-                    <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+                    <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span" color="white">
@@ -143,36 +100,12 @@ function Cursos({showDiv}){
                 <TimelineItem>
                     <TimelineOppositeContent
                     sx={{ m: 'auto 0' }}
-                    align="right"
                     variant="body2"
                     color="white"
                     >
                     Presente
                     </TimelineOppositeContent>
                     <TimelineSeparator>
-                    <TimelineDot>
-                        <ComputerIcon />
-                    </TimelineDot>
-                    <TimelineConnector />
-                    </TimelineSeparator>
-                    <TimelineContent sx={{ py: '12px', px: 2 }}>
-                    <Typography variant="h6" component="span" color="white">
-                        Curso intensivo python
-                    </Typography>
-                    <Typography color="white">Python es un lenguaje de programación versátil y fácil de aprender
-                    en CODEEN / ADA</Typography>
-                    </TimelineContent>
-                </TimelineItem>
-                <TimelineItem>
-                    <TimelineOppositeContent
-                    sx={{ m: 'auto 0' }}
-                    variant="body2"
-                    color="white"
-                    >
-                    Presente
-                    </TimelineOppositeContent>
-                    <TimelineSeparator>
-                    <TimelineConnector />
                     <TimelineDot color="primary">
                         <TerminalIcon />
                     </TimelineDot>
@@ -186,7 +119,7 @@ function Cursos({showDiv}){
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
-                <TimelineOppositeContent
+                    <TimelineOppositeContent
                     sx={{ m: 'auto 0' }}
                     variant="body2"
                     color="white"
@@ -195,18 +128,39 @@ function Cursos({showDiv}){
                     </TimelineOppositeContent>
                     <TimelineSeparator>
                     <TimelineConnector />
-                    <TimelineDot color="secondary" >
+                    <TimelineDot  color="secondary">
                         <StorageIcon />
                     </TimelineDot>
                     <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span" color="white">
-                    CISCO Networking Academy
+                        CISCO Networking Academy
                     </Typography>
                     <Typography color="white">Cisco Networking Academy transforma la vida de estudiantes,
                     educadores y comunidades gracias al poder de la tecnología, la
                     educación y las oportunidades profesionales.</Typography>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    variant="body2"
+                    color="white"
+                    >
+                    Presente
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                    <TimelineDot >
+                        <TerminalIcon />
+                    </TimelineDot>
+                    <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span" color="white">
+                        4to Módulo- Base de datos y ciberseguridad
+                    </Typography>
+                    <Typography color="white">El módulo se enfoca en conocer las base de datos y introducción a la ciberseguridad.</Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -215,10 +169,120 @@ function Cursos({showDiv}){
                     variant="body2"
                     color="white"
                     >
-                    Presente
+                    Junio 2025
                     </TimelineOppositeContent>
                     <TimelineSeparator>
+                    <TimelineDot color="primary">
+                        <HtmlIcon />
+                    </TimelineDot>
+                    <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span" color="white">
+                    Bootcamp Premium de Desarrollo Web Frontend
+                    </Typography>
+                    <Typography color="white">Está enfocado en enseñar las tecnologías fundamentales del frontend: HTML, CSS y JavaScript, con un enfoque práctico y orientado a proyectos.
+                    </Typography>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    variant="body2"
+                    color="white"
+                    >
+                    Junio 2025
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                    <TimelineConnector />
+                    <TimelineDot  color="secondary">
+                        <StorageIcon />
+                    </TimelineDot>
                     <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+                    </TimelineSeparator>
+                    <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span" color="white">
+                        Backend(R) 202410 - TypeScript, Programación Orientada a Objetos, ExpressJS, API REST y CRUD
+                    </Typography>
+                    <Typography color="white">El objetivo de este curso avanzado es profundizar los conocimientos del uso de TypeScript,aplicar Programación Orientada a Objetos (POO) y el uso de ExpressJS. </Typography>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    align="right"
+                    variant="body2"
+                    color="white"
+                    >
+                    Mayo 2025
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                    <TimelineDot >
+                        <SchoolIcon />
+                    </TimelineDot>
+                    <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span" color="white">
+                        Bootcamp QA Testing
+                    </Typography>
+                    <Typography color="white">Es una formación intensiva diseñada para preparar a personas desde cero en el mundo del Quality Assurance.</Typography>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    align="right"
+                    variant="body2"
+                    color="white"
+                    >
+                    Marzo 2025
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                    <TimelineDot color="primary" >
+                        <ComputerIcon />
+                    </TimelineDot>
+                    <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span" color="white">
+                        Introducción a Backend: Fundamentos de Node.js 
+                    </Typography>
+                    <Typography color="white">El objetivo de este módulo es que las alumnas obtengan una base sólida en Node.js, un entorno de ejecución de JavaScript del lado del servidor. </Typography>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    variant="body2"
+                    color="white"
+                    >
+                    Enero 2025
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                    <TimelineConnector />
+                    <TimelineDot color="secondary" >
+                        <SchoolIcon />
+                    </TimelineDot>
+                    <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+                    </TimelineSeparator>
+                    <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span" color="white">
+                    Inglés Slang
+                    </Typography>
+                    <Typography color="white">Programa para aprender Inglés.</Typography>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    align="right"
+                    variant="body2"
+                    color="white"
+                    >
+                    Enero 2025
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
                     <TimelineDot>
                         <ComputerIcon />
                     </TimelineDot>
@@ -229,6 +293,49 @@ function Cursos({showDiv}){
                         Bootcamp de Backend con Java y Spring
                     </Typography>
                     <Typography color="white">Este curso es para aprender Backend con java y Spring Booot, uno de los frameworks más populares en el desarrollo de aplicaciones Java.</Typography>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    variant="body2"
+                    color="white"
+                    >
+                    Diciembre 2024
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                    <TimelineDot color="primary">
+                        <JavascriptIcon />
+                    </TimelineDot>
+                    <TimelineConnector/>
+                    </TimelineSeparator>
+                    <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span" color="white">
+                    Introducción a la Programación con JavaScript 
+                    </Typography>
+                    <Typography color="white">Este curso formativo está estructurado para guiar a los participantes desde los fundamentos de la informática hasta la programación con Javascript.</Typography>
+                    </TimelineContent>
+                </TimelineItem> 
+                <TimelineItem>
+                    <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    variant="body2"
+                    color="white"
+                    >
+                    Diciembre 2024
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                    <TimelineConnector />
+                    <TimelineDot color="secondary">
+                        <BackupIcon />
+                    </TimelineDot>
+                    <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+                    </TimelineSeparator>
+                    <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span" color="white">
+                        Bootcamp De Bases de Datos en la nube con Azure
+                    </Typography>
+                    <Typography color="white">Comprensión sólida de los principios fundamentales de los datos en la nube.</Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -252,6 +359,29 @@ function Cursos({showDiv}){
                     <Typography color="white">Compresión para Cualquier Industria no importando la especialidad.</Typography>
                     </TimelineContent>
                 </TimelineItem> 
+                <TimelineItem>
+                <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    variant="body2"
+                    color="white"
+                    >
+                    Septiembre 2024
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                    <TimelineConnector  />
+                    <TimelineDot>
+                        <ComputerIcon />
+                    </TimelineDot>
+                    <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span" color="white">
+                        Curso intensivo python
+                    </Typography>
+                    <Typography color="white">Python es un lenguaje de programación versátil y fácil de aprender
+                    en CODEEN / ADA</Typography>
+                    </TimelineContent>
+                </TimelineItem>
                 <TimelineItem>
                     <TimelineOppositeContent
                     sx={{ m: 'auto 0' }}
