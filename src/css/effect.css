@@ -9,3 +9,30 @@
     min-height:40vh;
     color: white;
 }
+
+.grupo-hover {
+    position: relative;
+    display: inline-block;
+}
+
+.nombre-certificado {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.cuadro-certificado {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 10;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.grupo-hover:hover .cuadro-certificado {
+    display: block;
+}

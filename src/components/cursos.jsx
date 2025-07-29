@@ -25,6 +25,8 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import SupervisorAccountIcon from '@mui/icons-material/SupervisorAccount';
 import BackupIcon from '@mui/icons-material/Backup';
 import HtmlIcon from '@mui/icons-material/Html';
+import certificados from '../components/certificados';
+import "../css/effect.css";
 
 function Cursos({showDiv}){
     return(
@@ -311,7 +313,22 @@ function Cursos({showDiv}){
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span" color="white">
-                    Introducción a la Programación con JavaScript 
+                    
+                    <div className="grupo-hover">
+                        <span className="nombre-certificado">Introducción a la Programación con JavaScript </span>
+
+                        <div className="cuadro-certificado">
+                            <iframe
+                            src={certificados.certificadoJavaScript}
+                            title="Certificado JavaScript PDF"
+                            width="300"
+                            height="200"
+                            />
+                            <a href={certificados.certificadoJavaScript} download="Certificado JavaScript.pdf">
+                            Descargar PDF
+                            </a>
+                        </div>
+                    </div>
                     </Typography>
                     <Typography color="white">Este curso formativo está estructurado para guiar a los participantes desde los fundamentos de la informática hasta la programación con Javascript.</Typography>
                     </TimelineContent>
@@ -333,7 +350,22 @@ function Cursos({showDiv}){
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span" color="white">
-                        Bootcamp De Bases de Datos en la nube con Azure
+                        
+                    <div className="grupo-hover">
+                        <span className="nombre-certificado">Bootcamp De Bases de Datos en la nube con Azure</span>
+
+                        <div className="cuadro-certificado">
+                            <iframe
+                            src={certificados.certificadoBootcampAzure}
+                            title="Bootcamp BD Azure PDF"
+                            width="300"
+                            height="200"
+                            />
+                            <a href={certificados.certificadoBootcampAzure} download="Bootcamp BD Azure.pdf">
+                            Descargar PDF
+                            </a>
+                        </div>
+                    </div>
                     </Typography>
                     <Typography color="white">Comprensión sólida de los principios fundamentales de los datos en la nube.</Typography>
                     </TimelineContent>
@@ -354,7 +386,22 @@ function Cursos({showDiv}){
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span" color="white">
-                    Fundamentos de Scrum
+                    
+                    <div className="grupo-hover">
+                        <span className="nombre-certificado">Fundamentos de Scrum</span>
+
+                        <div className="cuadro-certificado">
+                            <iframe
+                            src={certificados.certificadoFS}
+                            title="Certificado Fundamentos de Scrum PDF"
+                            width="300"
+                            height="200"
+                            />
+                            <a href={certificados.certificadoFS} download="Certificado Fundamentos de Scrum.pdf">
+                            Descargar PDF
+                            </a>
+                        </div>
+                    </div>
                     </Typography>
                     <Typography color="white">Compresión para Cualquier Industria no importando la especialidad.</Typography>
                     </TimelineContent>
@@ -376,7 +423,22 @@ function Cursos({showDiv}){
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span" color="white">
-                        Curso intensivo python
+                        
+                    <div className="grupo-hover">
+                        <span className="nombre-certificado">Curso Intensivo Python</span>
+
+                        <div className="cuadro-certificado">
+                            <iframe
+                            src={certificados.certificadoPythonI}
+                            title="Certificado Intensivo Python PDF"
+                            width="300"
+                            height="200"
+                            />
+                            <a href={certificados.certificadoPythonI} download="Certificado Intensivo Python.pdf">
+                            Descargar PDF
+                            </a>
+                        </div>
+                    </div>
                     </Typography>
                     <Typography color="white">Python es un lenguaje de programación versátil y fácil de aprender
                     en CODEEN / ADA</Typography>
@@ -400,7 +462,21 @@ function Cursos({showDiv}){
                     <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span" color="white">
                     
-                    GitHub Actions
+                     <div className="grupo-hover">
+                        <span className="nombre-certificado">GitHub Actions</span>
+
+                        <div className="cuadro-certificado">
+                            <iframe
+                            src={certificados.certificadoGitHubActions}
+                            title="Certificado GitHub Actions PDF"
+                            width="300"
+                            height="200"
+                            />
+                            <a href={certificados.certificadoGitHubActions} download="Certificado GitHub Actions.pdf">
+                            Descargar PDF
+                            </a>
+                        </div>
+                    </div>
                     </Typography>
                     <Typography color="white">Aprender GitHub Actions.</Typography>
                     </TimelineContent>
@@ -421,7 +497,22 @@ function Cursos({showDiv}){
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span" color="white">
-                    Python: de cero a usuario (con honores)
+                    
+                    <div className="grupo-hover">
+                        <span className="nombre-certificado">Python: de cero a usuario (con honores)</span>
+
+                        <div className="cuadro-certificado">
+                            <iframe
+                            src={certificados.certificadoPythonCeroC}
+                            title="Certificado Python Cero PDF"
+                            width="300"
+                            height="200"
+                            />
+                            <a href={certificados.certificadoPythonCeroC} download="Certificado Python Cero.pdf">
+                            Descargar PDF
+                            </a>
+                        </div>
+                    </div>
                     </Typography>
                     <Typography color="white">Aprender Python con Jupyter.</Typography>
                     </TimelineContent>
@@ -443,7 +534,22 @@ function Cursos({showDiv}){
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span" color="white">
-                    Python
+                    
+                    <div className="grupo-hover">
+                        <span className="nombre-certificado">  Python</span>
+
+                        <div className="cuadro-certificado">
+                            <iframe
+                            src={certificados.certificadoPythonS}
+                            title="Certificado Python PDF"
+                            width="300"
+                            height="200"
+                            />
+                            <a href={certificados.certificadoPythonS} download="Certificado Python.pdf">
+                            Descargar PDF
+                            </a>
+                        </div>
+                    </div>
                     </Typography>
                     <Typography color="white">Introducción a Python. </Typography>
                     </TimelineContent>
@@ -465,7 +571,22 @@ function Cursos({showDiv}){
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span" color="white">
-                    Google: Inteligencia Artificial y Productividad
+                    <div className="grupo-hover">
+                        <span className="nombre-certificado">Google: Inteligencia Artificial y Productividad</span>
+
+                        <div className="cuadro-certificado">
+                            <iframe
+                            src={certificados.certificadoIA}
+                            title="Certificado IA PDF"
+                            width="300"
+                            height="200"
+                            />
+                            <a href={certificados.certificadoIA} download="Google-IA-Certificado.pdf">
+                            Descargar PDF
+                            </a>
+                        </div>
+                    </div>
+                     
                     </Typography>
                     <Typography color="white">Conocer herramientas de IA generativa y Google Gemini.</Typography>
                     </TimelineContent>
@@ -486,7 +607,22 @@ function Cursos({showDiv}){
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span" color="white">
-                        Microsoft Excel
+                      
+                    <div className="grupo-hover">
+                        <span className="nombre-certificado">  Microsoft Excel</span>
+
+                        <div className="cuadro-certificado">
+                            <iframe
+                            src={certificados.certificadoExcel}
+                            title="Certificado Excel PDF"
+                            width="300"
+                            height="200"
+                            />
+                            <a href={certificados.certificadoExcel} download="Certificado Excel.pdf">
+                            Descargar PDF
+                            </a>
+                        </div>
+                    </div>
                     </Typography>
                     <Typography color="white">Curso de Excel básico a intermedio.</Typography>
                     </TimelineContent>
@@ -508,7 +644,22 @@ function Cursos({showDiv}){
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span" color="white">
-                    Bootcamp React.js
+                    
+                    <div className="grupo-hover">
+                        <span className="nombre-certificado">Bootcamp React.js</span>
+
+                        <div className="cuadro-certificado">
+                            <iframe
+                            src={certificados.certificadoReact}
+                            title="Bootcamp React PDF"
+                            width="300"
+                            height="200"
+                            />
+                            <a href={certificados.certificadoReact} download="Bootcamp React.pdf">
+                            Descargar PDF
+                            </a>
+                        </div>
+                    </div>
                     </Typography>
                     <Typography color="white">Aprender React.js en Código facilito</Typography>
                     </TimelineContent>
@@ -530,8 +681,20 @@ function Cursos({showDiv}){
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span" color="white">
-                    Becas Santander Tecnología
-                    Innovación para el Futuro BEDU
+
+                    <div className="grupo-hover">
+                        <span className="nombre-certificado">Becas Santander Tecnología Innovación para el Futuro BEDU</span>
+
+                        <div className="cuadro-certificado">
+                            <iframe
+                            src={certificados.diplomaBedu}
+                            title="BEDU"
+                            width="300"
+                            height="200"
+                            />
+
+                        </div>
+                    </div>
                     </Typography>
                     <Typography color="white">Learning Path en Desarrollo Web - JavaScript presente Objetivo.
                     Diseñar y desarrollar el frontend y el backend de una aplicación
@@ -591,7 +754,7 @@ function Cursos({showDiv}){
                     variant="body2"
                     color="white"
                     >
-                    Agosto 2021
+                    Agosto 2020
                     </TimelineOppositeContent>
                     <TimelineSeparator>
                     <TimelineConnector />
@@ -602,8 +765,21 @@ function Cursos({showDiv}){
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span" color="white">
-                    Diploma en Seguridad en Redes,
-                    Sistemas y Aplicaciones
+                    <div className="grupo-hover">
+                        <span className="nombre-certificado">Diploma en Seguridad en Redes,Sistemas y Aplicaciones</span>
+
+                        <div className="cuadro-certificado">
+                            <iframe
+                            src={certificados.diplomadoSeguridad}
+                            title="Diplomado Unir Seguridad PDF"
+                            width="300"
+                            height="200"
+                            />
+                            <a href={certificados.diplomadoSeguridad} download="Unir-Seguridad-Diplomado.pdf">
+                            Descargar PDF
+                            </a>
+                        </div>
+                    </div>
                     </Typography>
                     <Typography color="white">Diplomado en UNIR.</Typography>
                     </TimelineContent>
@@ -615,7 +791,7 @@ function Cursos({showDiv}){
                     variant="body2"
                     color="white"
                     >
-                    Agosto 2021
+                    Agosto 2020
                     </TimelineOppositeContent>
                     <TimelineSeparator>                    
                     <TimelineDot>
@@ -625,7 +801,21 @@ function Cursos({showDiv}){
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span" color="white">
-                    Diploma Gestión de la Seguridad y Marco Legal
+                    <div className="grupo-hover">
+                        <span className="nombre-certificado">Diploma Gestión de la Seguridad y Marco legal</span>
+
+                        <div className="cuadro-certificado">
+                            <iframe
+                            src={certificados.diplomadoGestionSeguridad}
+                            title="Diplomado Unir Gestion PDF"
+                            width="300"
+                            height="200"
+                            />
+                            <a href={certificados.diplomadoGestionSeguridad} download="Unir-GEstion-Seguridad-Diplomado.pdf">
+                            Descargar PDF
+                            </a>
+                        </div>
+                    </div>
                     </Typography>
                     <Typography color="white">Diplomado en UNIR.</Typography>
                     </TimelineContent>

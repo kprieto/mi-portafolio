@@ -41,6 +41,9 @@ function GITHUB({showDiv}){
                 <a href="https://github.com/kprieto/Integrador_NodeJS" class="text-white text-2xl visited:text-purple-600 ...">
                     Proyecto de Api de gestión de una biblioteca con Node.js
                 </a>
+                <a href="https://github.com/GegeRastenis/API-Clothes" class="text-white text-2xl visited:text-purple-600 ...">
+                    Proyecto en equipo de un Api Rest con operaciones CRUD
+                </a>
                 </div>
                 <br></br>
                 <br></br>
