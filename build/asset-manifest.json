@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/mi-portafolio/build/static/css/main.0bebc6a3.css",
-    "main.js": "/mi-portafolio/build/static/js/main.b071c9c3.js",
+    "main.js": "/mi-portafolio/build/static/js/main.451d86ae.js",
     "static/js/453.2a12872b.chunk.js": "/mi-portafolio/build/static/js/453.2a12872b.chunk.js",
     "static/media/REDES.mp4": "/mi-portafolio/build/static/media/REDES.2ac79cf6e7067c6da6d2.mp4",
+    "static/media/certificado-informatica-forense.pdf": "/mi-portafolio/build/static/media/certificado-informatica-forense.ae1a509a76c7cbed9c8e.pdf",
     "static/media/insanity.png": "/mi-portafolio/build/static/media/insanity.f3f4f8724592ebc0b099.png",
     "static/media/fa-solid-900.ttf": "/mi-portafolio/build/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/PythonCoursera.pdf": "/mi-portafolio/build/static/media/PythonCoursera.0f3faef82ae53bb15c35.pdf",
@@ -19,6 +20,7 @@
     "static/media/REDES4.jpg": "/mi-portafolio/build/static/media/REDES4.497380aa3a29e3318d39.jpg",
     "static/media/D Seguridad.pdf": "/mi-portafolio/build/static/media/D Seguridad.61bda790e4c60f047343.pdf",
     "static/media/D Gestion Seguridad.pdf": "/mi-portafolio/build/static/media/D Gestion Seguridad.5f0ff0dd036ef59400f2.pdf",
+    "static/media/CV 2025 ANA KAREN PRIETO.pdf": "/mi-portafolio/build/static/media/CV 2025 ANA KAREN PRIETO.b8c6237f5be6dd2514e6.pdf",
     "static/media/PRINTSHOP.jpg": "/mi-portafolio/build/static/media/PRINTSHOP.01d0664abd3d398f565f.jpg",
     "static/media/REDES7.jpg": "/mi-portafolio/build/static/media/REDES7.e47d569b1c12abb79a03.jpg",
     "static/media/bootstrap-icons.woff?": "/mi-portafolio/build/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
@@ -27,6 +29,8 @@
     "static/media/ELEVADOR.jpg": "/mi-portafolio/build/static/media/ELEVADOR.2a74666df93082c8e51a.jpg",
     "static/media/CUSTOMER.jpg": "/mi-portafolio/build/static/media/CUSTOMER.4fb2a1e952b0d57b4a53.jpg",
     "static/media/REDES8.jpg": "/mi-portafolio/build/static/media/REDES8.6fdaa2e244d2774d6b23.jpg",
+    "static/media/Certificado TS.pdf": "/mi-portafolio/build/static/media/Certificado TS.b4bf3cd88d8090eff176.pdf",
+    "static/media/Certificate Nodejs.pdf": "/mi-portafolio/build/static/media/Certificate Nodejs.e9069263a5e11e6e9c5d.pdf",
     "static/media/Certificate Javascript.pdf": "/mi-portafolio/build/static/media/Certificate Javascript.71e3fa3a5d44a51d685a.pdf",
     "static/media/Certificate Python Intensivo.pdf": "/mi-portafolio/build/static/media/Certificate Python Intensivo.55f0b38323fc3ecf80b7.pdf",
     "static/media/EDITARPO.jpg": "/mi-portafolio/build/static/media/EDITARPO.b2e4af92e47783592c75.jpg",
@@ -42,7 +46,6 @@
     "static/media/camara2.jpg": "/mi-portafolio/build/static/media/camara2.21187a897e3cbdbda457.jpg",
     "static/media/jacks.jpg": "/mi-portafolio/build/static/media/jacks.1f2bd9301e521ce4c95e.jpg",
     "static/media/foto.jpg": "/mi-portafolio/build/static/media/foto.f083287f1a740416d1b6.jpg",
-    "static/media/CV ANA KAREN PRIETO PARRA.pdf": "/mi-portafolio/build/static/media/CV ANA KAREN PRIETO PARRA.9bcf0f2d57f101d1b983.pdf",
     "static/media/camara3.jpg": "/mi-portafolio/build/static/media/camara3.8d3fd61549dd86464090.jpg",
     "static/media/MENU.jpg": "/mi-portafolio/build/static/media/MENU.3d32ecbe6a40f411b797.jpg",
     "static/media/jack2.jpg": "/mi-portafolio/build/static/media/jack2.19f7675551198a147df9.jpg",
@@ -54,7 +57,10 @@
     "static/media/cerem.jpeg": "/mi-portafolio/build/static/media/cerem.42a2c363d72e045cdec8.jpeg",
     "static/media/REFERENCEORDER.jpg": "/mi-portafolio/build/static/media/REFERENCEORDER.2539c4c679818157f3ff.jpg",
     "static/media/becas_santander_tecnología___innovación_para_el_futuro___bedu.png": "/mi-portafolio/build/static/media/becas_santander_tecnología___innovación_para_el_futuro___bedu.bf73472c81dd0ac99d83.png",
+    "static/media/Certificado Bootcamp Premium de Desarrollo Web Frontend.pdf": "/mi-portafolio/build/static/media/Certificado Bootcamp Premium de Desarrollo Web Frontend.ec96c1fa9791a43dbcd9.pdf",
     "static/media/Certificado Bootcamp de Bases de Datos en la nube con Azure.pdf": "/mi-portafolio/build/static/media/Certificado Bootcamp de Bases de Datos en la nube con Azure.15e51cd132fb93adfc25.pdf",
+    "static/media/certificadoSpring.pdf": "/mi-portafolio/build/static/media/certificadoSpring.8bcad94f10a0522b0170.pdf",
+    "static/media/Certificado Bootcamp QA Testing.pdf": "/mi-portafolio/build/static/media/Certificado Bootcamp QA Testing.6dd4e0699e2cef21581d.pdf",
     "static/media/PROMUEVE TU NEGOCIO.png": "/mi-portafolio/build/static/media/PROMUEVE TU NEGOCIO.0066f9f0c79a324aae59.png",
     "static/media/fa-regular-400.woff2": "/mi-portafolio/build/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
     "static/media/fa-v4compatibility.ttf": "/mi-portafolio/build/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
@@ -62,11 +68,11 @@
     "static/media/fa-v4compatibility.woff2": "/mi-portafolio/build/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/mi-portafolio/build/index.html",
     "main.0bebc6a3.css.map": "/mi-portafolio/build/static/css/main.0bebc6a3.css.map",
-    "main.b071c9c3.js.map": "/mi-portafolio/build/static/js/main.b071c9c3.js.map",
+    "main.451d86ae.js.map": "/mi-portafolio/build/static/js/main.451d86ae.js.map",
     "453.2a12872b.chunk.js.map": "/mi-portafolio/build/static/js/453.2a12872b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0bebc6a3.css",
-    "static/js/main.b071c9c3.js"
+    "static/js/main.451d86ae.js"
   ]
 }
