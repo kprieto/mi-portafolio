@@ -1,12 +1,12 @@
 import * as React from "react";
-import pdf from "../assets/CV ANA KAREN PRIETO PARRA.pdf"
+import pdf from "../assets/CV 2025 ANA KAREN PRIETO.pdf"
 
 function CV({showDiv}){
     const onButtonClick = () => {
         const pdfUrl = pdf;
         const link = document.createElement("a");
         link.href = pdfUrl;
-        link.download = "CV Ana Karen Prieto Parra.pdf"; // specify the filename
+        link.download = "CV 2025 ANA KAREN PRIETO.pdf"; // specify the filename
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -34,12 +34,12 @@ function CV({showDiv}){
                 <br></br>
                 <br></br> 
                 <div class="d-grid gap-2 col-6 mx-auto">
-                    <a href="https://www.canva.com/design/DAGtv6lkITg/Am8E_OznAGkNRPyOCutaxA/edit?utm_content=DAGtv6lkITg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="text-white text-2xl visited:text-purple-600 ...">
+                    {/*<a href="https://www.canva.com/design/DAGtv6lkITg/Am8E_OznAGkNRPyOCutaxA/edit?utm_content=DAGtv6lkITg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="text-white text-2xl visited:text-purple-600 ...">
                         Visualizar mi CV
-                    </a>
-{/*                     <button type="button" class="button btn-lg " onClick={onButtonClick}>
+                    </a> */}
+                    <button type="button" class="button btn-lg " onClick={onButtonClick}>
                         Descarga mi CV
-                    </button> */}
+                    </button>
                 </div>
             </div>
         )}

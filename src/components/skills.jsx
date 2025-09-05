@@ -156,7 +156,15 @@ function Skills({ showDiv }){
                                 <br></br> 
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style={{width: '75%'}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" className="bar"><p class="text-sm font-bold">DBeaver</p></div>
-                                </div>                                         
+                                </div>   
+                                 <br></br> 
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style={{width: '75%'}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" className="bar"><p class="text-sm font-bold">MongoDB Compass</p></div>
+                                </div>
+                                 <br></br> 
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style={{width: '75%'}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" className="bar"><p class="text-sm font-bold">Mongo Atlas</p></div>
+                                </div>                                      
                                 </blockquote>                               
                             </div>
                         </figure>

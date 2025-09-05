@@ -130,10 +130,10 @@ function Cursos({showDiv}){
                     </TimelineOppositeContent>
                     <TimelineSeparator>
                     <TimelineConnector />
-                    <TimelineDot  color="secondary">
+                    <TimelineDot  color="primary">
                         <StorageIcon />
                     </TimelineDot>
-                    <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+                    <TimelineConnector  />
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span" color="white">
@@ -153,16 +153,51 @@ function Cursos({showDiv}){
                     Presente
                     </TimelineOppositeContent>
                     <TimelineSeparator>
-                    <TimelineDot >
+                    <TimelineDot color="secondary">
                         <TerminalIcon />
                     </TimelineDot>
-                    <TimelineConnector />
+                    <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span" color="white">
                         4to Módulo- Base de datos y ciberseguridad
                     </Typography>
                     <Typography color="white">El módulo se enfoca en conocer las base de datos y introducción a la ciberseguridad.</Typography>
+                    </TimelineContent>
+                </TimelineItem>
+                                <TimelineItem>
+                    <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    variant="body2"
+                    color="white"
+                    >
+                    Septiembre 2025
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                    <TimelineDot>
+                        <TerminalIcon />
+                    </TimelineDot>
+                    <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span" color="white">
+                    <div className="grupo-hover">
+                        <span className="nombre-certificado">Informática Forense  </span>
+
+                        <div className="cuadro-certificado">
+                            <iframe
+                            src={certificados.certificadoInformaticaForenseC}
+                            title="Certificado Informática Forense PDF"
+                            width="300"
+                            height="200"
+                            />
+                            <a href={certificados.certificadoInformaticaForenseC} download="Certificado Informática Forense.pdf">
+                            Descargar PDF
+                            </a>
+                        </div>
+                    </div>    
+                    </Typography>
+                    <Typography color="white">Campamento gratuito online de INFORMÁTICA FORENSE. </Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -181,7 +216,21 @@ function Cursos({showDiv}){
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span" color="white">
-                    Bootcamp Premium de Desarrollo Web Frontend
+                    <div className="grupo-hover">
+                        <span className="nombre-certificado">Bootcamp Premium de Desarrollo Web Frontend  </span>
+
+                        <div className="cuadro-certificado">
+                            <iframe
+                            src={certificados.certificadoBFrontend}
+                            title="Certificado Bootcamp Premium de Desarrollo Web Frontend PDF"
+                            width="300"
+                            height="200"
+                            />
+                            <a href={certificados.certificadoBFrontend} download="Certificado Bootcamp Premium de Desarrollo Web Frontend.pdf">
+                            Descargar PDF
+                            </a>
+                        </div>
+                    </div>
                     </Typography>
                     <Typography color="white">Está enfocado en enseñar las tecnologías fundamentales del frontend: HTML, CSS y JavaScript, con un enfoque práctico y orientado a proyectos.
                     </Typography>
@@ -204,7 +253,21 @@ function Cursos({showDiv}){
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span" color="white">
-                        Backend(R) 202410 - TypeScript, Programación Orientada a Objetos, ExpressJS, API REST y CRUD
+                    <div className="grupo-hover">
+                        <span className="nombre-certificado">Backend(R) 202410 - TypeScript, Programación Orientada a Objetos, ExpressJS, API REST y CRUD  </span>
+
+                        <div className="cuadro-certificado">
+                            <iframe
+                            src={certificados.certificadoTSP}
+                            title="Certificado Backend TS PDF"
+                            width="300"
+                            height="200"
+                            />
+                            <a href={certificados.certificadoTSP} download="Certificado Backend TS.pdf">
+                            Descargar PDF
+                            </a>
+                        </div>
+                    </div>     
                     </Typography>
                     <Typography color="white">El objetivo de este curso avanzado es profundizar los conocimientos del uso de TypeScript,aplicar Programación Orientada a Objetos (POO) y el uso de ExpressJS. </Typography>
                     </TimelineContent>
@@ -226,7 +289,21 @@ function Cursos({showDiv}){
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span" color="white">
-                        Bootcamp QA Testing
+                    <div className="grupo-hover">
+                        <span className="nombre-certificado">Bootcamp QA Testing  </span>
+
+                        <div className="cuadro-certificado">
+                            <iframe
+                            src={certificados.certificadoQAT}
+                            title="Certificado Bootcamp QA Testing PDF"
+                            width="300"
+                            height="200"
+                            />
+                            <a href={certificados.certificadoQAT} download="Certificado Bootcamp QA Testing.pdf">
+                            Descargar PDF
+                            </a>
+                        </div>
+                    </div>    
                     </Typography>
                     <Typography color="white">Es una formación intensiva diseñada para preparar a personas desde cero en el mundo del Quality Assurance.</Typography>
                     </TimelineContent>
@@ -248,7 +325,21 @@ function Cursos({showDiv}){
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span" color="white">
-                        Introducción a Backend: Fundamentos de Node.js 
+                    <div className="grupo-hover">
+                        <span className="nombre-certificado">Introducción a Backend: Fundamentos de Node.js  </span>
+
+                        <div className="cuadro-certificado">
+                            <iframe
+                            src={certificados.certificadoNode}
+                            title="Certificado Backend Node.js PDF"
+                            width="300"
+                            height="200"
+                            />
+                            <a href={certificados.certificadoNode} download="Certificado Backend Nodejs.pdf">
+                            Descargar PDF
+                            </a>
+                        </div>
+                    </div>    
                     </Typography>
                     <Typography color="white">El objetivo de este módulo es que las alumnas obtengan una base sólida en Node.js, un entorno de ejecución de JavaScript del lado del servidor. </Typography>
                     </TimelineContent>
@@ -292,7 +383,21 @@ function Cursos({showDiv}){
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span" color="white">
-                        Bootcamp de Backend con Java y Spring
+                    <div className="grupo-hover">
+                        <span className="nombre-certificado">Bootcamp de Backend con Java y Spring </span>
+
+                        <div className="cuadro-certificado">
+                            <iframe
+                            src={certificados.certificadoSpringJ}
+                            title="Certificado Bootcamp Spring Java PDF"
+                            width="300"
+                            height="200"
+                            />
+                            <a href={certificados.certificadoSpringJ} download="Certificado Spring Java.pdf">
+                            Descargar PDF
+                            </a>
+                        </div>
+                    </div>
                     </Typography>
                     <Typography color="white">Este curso es para aprender Backend con java y Spring Booot, uno de los frameworks más populares en el desarrollo de aplicaciones Java.</Typography>
                     </TimelineContent>
