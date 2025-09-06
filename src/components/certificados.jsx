@@ -17,6 +17,7 @@ import certificadoNodeJs from '../assets/certificados/Certificate Nodejs.pdf';
 import certificadoQA from '../assets/certificados/Certificado Bootcamp QA Testing.pdf';
 import certificadoTS from '../assets/certificados/Certificado TS.pdf';
 import certificadoBootcampFrontend from '../assets/certificados/Certificado Bootcamp Premium de Desarrollo Web Frontend.pdf';
+import certificadoISlang from '../assets/certificados/certificates Advanced Intermediate.pdf';
 
 
 
@@ -41,7 +42,8 @@ const certificados = {
     certificadoNode: certificadoNodeJs,
     certificadoQAT: certificadoQA,
     certificadoTSP: certificadoTS,
-    certificadoBFrontend: certificadoBootcampFrontend
+    certificadoBFrontend: certificadoBootcampFrontend,
+    certificadoInglesSlang: certificadoISlang
 };
 
 export default certificados;

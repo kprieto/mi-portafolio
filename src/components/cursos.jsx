@@ -26,6 +26,8 @@ import SupervisorAccountIcon from '@mui/icons-material/SupervisorAccount';
 import BackupIcon from '@mui/icons-material/Backup';
 import HtmlIcon from '@mui/icons-material/Html';
 import certificados from '../components/certificados';
+import PersonIcon from '@mui/icons-material/Person';
+
 import "../css/effect.css";
 
 function Cursos({showDiv}){
@@ -62,12 +64,12 @@ function Cursos({showDiv}){
                     </TimelineOppositeContent>
                     <TimelineSeparator>
                     <TimelineConnector />
-                    <TimelineDot color="secondary" >
+                    <TimelineDot  >
                         <DataArrayIcon />
                     </TimelineDot>
-                    <TimelineConnector sx={{ bgcolor: 'secondary.main' }}  />
+                    <TimelineConnector   />
                     </TimelineSeparator>
-                    <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <TimelineContent >
                     <Typography variant="h6" component="span" color="white">
                     Bootcamp de Java Profesional
                     </Typography>
@@ -84,7 +86,7 @@ function Cursos({showDiv}){
                     Presente
                     </TimelineOppositeContent>
                     <TimelineSeparator>
-                    <TimelineDot>
+                    <TimelineDot color="primary">
                         <ComputerIcon />
                     </TimelineDot>
                     <TimelineConnector />
@@ -108,10 +110,10 @@ function Cursos({showDiv}){
                     Presente
                     </TimelineOppositeContent>
                     <TimelineSeparator>
-                    <TimelineDot color="primary">
+                    <TimelineDot color="secondary">
                         <TerminalIcon />
                     </TimelineDot>
-                    <TimelineConnector />
+                    <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span" color="white">
@@ -129,8 +131,7 @@ function Cursos({showDiv}){
                     Presente
                     </TimelineOppositeContent>
                     <TimelineSeparator>
-                    <TimelineConnector />
-                    <TimelineDot  color="primary">
+                    <TimelineDot >
                         <StorageIcon />
                     </TimelineDot>
                     <TimelineConnector  />
@@ -142,6 +143,99 @@ function Cursos({showDiv}){
                     <Typography color="white">Cisco Networking Academy transforma la vida de estudiantes,
                     educadores y comunidades gracias al poder de la tecnología, la
                     educación y las oportunidades profesionales.</Typography>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    variant="body2"
+                    color="white"
+                    >
+                    Presente
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                    <TimelineConnector />
+                    <TimelineDot  color="primary">
+                        <BackupIcon />
+                    </TimelineDot>
+                    <TimelineConnector  />
+                    </TimelineSeparator>
+                    <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span" color="white">
+                        Curso de Preparación para la Certificación AZ‐900: Microsoft Azure Fundamentals
+                    </Typography>
+                    <Typography color="white">Está diseñado para darte una base sólida en computación en la nube, 
+                        especialmente en el ecosistema de Microsoft Azure.</Typography>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    variant="body2"
+                    color="white"
+                    >
+                    Presente
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                    <TimelineConnector />
+                    <TimelineDot  color="secondary">
+                        <BackupIcon />
+                    </TimelineDot>
+                    <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+                    </TimelineSeparator>
+                    <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span" color="white">
+                        Curso de Preparación para la Certificación AWS Cloud Practitioner
+                    </Typography>
+                    <Typography color="white">Está diseñado para que domines los fundamentos de 
+                        la nube de Amazon Web Services (AWS).</Typography>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    variant="body2"
+                    color="white"
+                    >
+                    Presente
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                    <TimelineDot>
+                        <ComputerIcon />
+                    </TimelineDot>
+                    <TimelineConnector  />
+                    </TimelineSeparator>
+                    <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span" color="white">
+                        Curso de Programación en Python
+                    </Typography>
+                    <Typography color="white">Está diseñado para que aprendas desde cero 
+                        hasta un nivel práctico y profesional, ideal si estás consolidando 
+                        tus habilidades para backend, automatización o análisis de datos.</Typography>
+                    </TimelineContent>
+                </TimelineItem>
+                <TimelineItem>
+                    <TimelineOppositeContent
+                    sx={{ m: 'auto 0' }}
+                    variant="body2"
+                    color="white"
+                    >
+                    Presente
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                    <TimelineConnector />
+                    <TimelineDot  color="primary">
+                        <PersonIcon />
+                    </TimelineDot>
+                    <TimelineConnector  />
+                    </TimelineSeparator>
+                    <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span" color="white">
+                        MODAM Diplomado en Soft Skills y Habilidades Directivas
+                    </Typography>
+                    <Typography color="white">Está diseñado para fortalecer tanto el liderazgo 
+                        como las competencias interpersonales, algo que encaja perfecto con 
+                        el enfoque en branding, emprendimiento y seguridad en sistemas.</Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -361,7 +455,21 @@ function Cursos({showDiv}){
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span" color="white">
-                    Inglés Slang
+                    <div className="grupo-hover">
+                        <span className="nombre-certificado">Inglés Slang  </span>
+
+                        <div className="cuadro-certificado">
+                            <iframe
+                            src={certificados.certificadoInglesSlang}
+                            title="Certificado Advanced Intermediate PDF"
+                            width="300"
+                            height="200"
+                            />
+                            <a href={certificados.certificadoInglesSlang} download="Certificado Advanced Intermediate.pdf">
+                            Descargar PDF
+                            </a>
+                        </div>
+                    </div>
                     </Typography>
                     <Typography color="white">Programa para aprender Inglés.</Typography>
                     </TimelineContent>
