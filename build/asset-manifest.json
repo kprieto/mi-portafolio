@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mi-portafolio/build/static/css/main.0bebc6a3.css",
-    "main.js": "/mi-portafolio/build/static/js/main.451d86ae.js",
+    "main.js": "/mi-portafolio/build/static/js/main.dba4d09e.js",
     "static/js/453.2a12872b.chunk.js": "/mi-portafolio/build/static/js/453.2a12872b.chunk.js",
     "static/media/REDES.mp4": "/mi-portafolio/build/static/media/REDES.2ac79cf6e7067c6da6d2.mp4",
     "static/media/certificado-informatica-forense.pdf": "/mi-portafolio/build/static/media/certificado-informatica-forense.ae1a509a76c7cbed9c8e.pdf",
@@ -13,6 +13,7 @@
     "static/media/certificado Google Inteligencia Artificial y productividad.pdf": "/mi-portafolio/build/static/media/certificado Google Inteligencia Artificial y productividad.a0d9be135d694320ed65.pdf",
     "static/media/certificadoExcel.pdf": "/mi-portafolio/build/static/media/certificadoExcel.0549b873d8366fec64b0.pdf",
     "static/media/certificadoPython.pdf": "/mi-portafolio/build/static/media/certificadoPython.02e25c0f2ed2bd9b8f1a.pdf",
+    "static/media/certificates Advanced Intermediate.pdf": "/mi-portafolio/build/static/media/certificates Advanced Intermediate.3f60b852c32a23f27e84.pdf",
     "static/media/Certificate Fundamentos de Scrum.pdf": "/mi-portafolio/build/static/media/Certificate Fundamentos de Scrum.540fff5c032fe1d0ff7c.pdf",
     "static/media/REDES6.jpg": "/mi-portafolio/build/static/media/REDES6.dd62d5cf9e6629479c18.jpg",
     "static/media/fa-brands-400.ttf": "/mi-portafolio/build/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
@@ -68,11 +69,11 @@
     "static/media/fa-v4compatibility.woff2": "/mi-portafolio/build/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/mi-portafolio/build/index.html",
     "main.0bebc6a3.css.map": "/mi-portafolio/build/static/css/main.0bebc6a3.css.map",
-    "main.451d86ae.js.map": "/mi-portafolio/build/static/js/main.451d86ae.js.map",
+    "main.dba4d09e.js.map": "/mi-portafolio/build/static/js/main.dba4d09e.js.map",
     "453.2a12872b.chunk.js.map": "/mi-portafolio/build/static/js/453.2a12872b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0bebc6a3.css",
-    "static/js/main.451d86ae.js"
+    "static/js/main.dba4d09e.js"
   ]
 }
