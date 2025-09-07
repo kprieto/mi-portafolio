@@ -1,5 +1,5 @@
 import * as React from "react";
-import pdf from "../assets/CV 2025 ANA KAREN PRIETO.pdf"
+import pdf from "../assets/CV ANA KAREN PRIETO 2025.pdf"
 
 function CV({showDiv}){
     const onButtonClick = () => {
