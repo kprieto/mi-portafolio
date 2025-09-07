@@ -1054,7 +1054,7 @@ function Cursos({showDiv}){
                     Hacking Day
                     </Typography>
                     <Typography color="white">Curso de Hacking de Nivel Principiante ofrecido por WhiteSuit. Para
-                        conocer los diferentes tipos de ataques cibernetivos y como
+                        conocer los diferentes tipos de ataques cibernéticos y como
                         resolver las vulnerabilidades de una red.</Typography>
                     </TimelineContent>
                 </TimelineItem>
