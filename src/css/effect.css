@@ -36,3 +36,29 @@
 .grupo-hover:hover .cuadro-certificado {
     display: block;
 }
+
+.nombre-tema {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.cuadro-tema {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 10;
+    color: black;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    width: max-content;     
+    height: auto;           
+    min-width: 200px;
+}
+
+.grupo-hover:hover .cuadro-tema {
+    display: block;
+}
