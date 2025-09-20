@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from 'react';
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
@@ -27,10 +27,11 @@ import BackupIcon from '@mui/icons-material/Backup';
 import HtmlIcon from '@mui/icons-material/Html';
 import certificados from '../components/certificados';
 import PersonIcon from '@mui/icons-material/Person';
-
+import ModalBlendy from "../components/modalBlendy";
 import "../css/effect.css";
 
 function Cursos({showDiv}){
+
     return(
         <>
         {showDiv && (
@@ -76,10 +77,9 @@ function Cursos({showDiv}){
                     <Typography color="white">Se aprendio los temas fundamentales de Java.
                     </Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalJava" buttonText="Detalles Java">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Introducción a Java.</li>
                             <li>Programación Básica de Java.</li>
                             <li>Programación Orientada a Objetos (POO).</li>
@@ -90,7 +90,7 @@ function Cursos({showDiv}){
                             <li>Gestión de Archivos en Java.</li>
                             <li>Testing en Java.</li>
                         </ul>
-                    </div>
+                    </ModalBlendy>  
                 </Typography>
                 </TimelineContent>
                 </TimelineItem>
@@ -117,10 +117,9 @@ function Cursos({showDiv}){
                         ni perturbarlo.
                     </Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalInformatica" buttonText="Detalles Informática Forense">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Laboratorios.</li>
                             <li>Configuración de Mikrotik.</li>
                             <li>Conceptos Básicos.</li>
@@ -131,9 +130,8 @@ function Cursos({showDiv}){
                             <li>Herramientas de Análisis de Imágenes.</li>
                             <li>Instalación y Configuración de Autopsy en Diferentes Escenarios.</li>
                             <li>Informática Forense en Celulares.</li>
-
                         </ul>
-                    </div>
+                    </ModalBlendy>
                 </Typography>
                 </TimelineContent>
                 </TimelineItem>
@@ -180,16 +178,15 @@ function Cursos({showDiv}){
                     educadores y comunidades gracias al poder de la tecnología, la
                     educación y las oportunidades profesionales.</Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalFPython" buttonText="Detalles Fundamentos de Python">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Introducción a Python y a la Programación Informática.</li>
                             <li>Tipos de Datos, Variables, Operaciones Básicas de Entrada y Salida, Operadores Básicos.</li>
                             <li>Valores Booleanos, Ejecución Condicional, Bucles, Listas y su procesamiento, Operaciones Lógicas y de Bit a Bit.</li>
                             <li>Funciones, Tuplas, Diccionarios, Excepciones y Procesamiento de Datos.</li>
                         </ul>
-                    </div>
+                    </ModalBlendy>
                 </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -215,10 +212,9 @@ function Cursos({showDiv}){
                     <Typography color="white">Está diseñado para darte una base sólida en computación en la nube, 
                         especialmente en el ecosistema de Microsoft Azure.</Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalAzure" buttonText="Detalles Azure">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Conceptos Básicos de la Nube.</li>
                             <li>Servicios Principales de Azure.</li>
                             <li>Soluciones Principales de Azure.</li>
@@ -227,7 +223,7 @@ function Cursos({showDiv}){
                             <li>Precios y Ciclo de Vida de Azure.</li>
                             <li>Laboratorios.</li>
                         </ul>
-                    </div>
+                    </ModalBlendy>
                 </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -253,16 +249,15 @@ function Cursos({showDiv}){
                     <Typography color="white">Está diseñado para que domines los fundamentos de 
                         la nube de Amazon Web Services (AWS).</Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalAws" buttonText="Detalles AWS">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Introducción a la Nube de AWS.</li>
                             <li>Servicios de Cómputo y Almacenamiento.</li>
                             <li>Base de Datos y Arquitectura en la Nube.</li>
                             <li>Preparación para el Examen de Certificación.</li>
                         </ul>
-                    </div>
+                    </ModalBlendy>
                 </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -288,10 +283,9 @@ function Cursos({showDiv}){
                         hasta un nivel práctico y profesional, ideal si estás consolidando 
                         tus habilidades para backend, automatización o análisis de datos.</Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalPython" buttonText="Detalles Python">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                                 <li>Introducción a Python.</li>
                                 <li>Primeros Conceptos en Python.</li>
                                 <li>Programación Básica como Estructuras de Datos, Ejecuciones Condicionales y Ejecuciones Iterativas.</li>
@@ -305,7 +299,7 @@ function Cursos({showDiv}){
                                 <li>Herramientas de Desarrollo Jupyter.</li>
                                 <li>Actividades.</li>
                         </ul>
-                    </div>
+                    </ModalBlendy>
                 </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -332,10 +326,9 @@ function Cursos({showDiv}){
                         como las competencias interpersonales, algo que encaja perfecto con 
                         el enfoque en branding, emprendimiento y seguridad en sistemas.</Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalSSHD" buttonText="Detalles Diplomado">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Inteligencia Emocional.</li>
                             <li>Liderazgo y Competencias Directivas.</li>
                             <li>Comunicación y Feedback.</li>
@@ -347,7 +340,7 @@ function Cursos({showDiv}){
                             <li>Motivación, Resiliencia y Cambio.</li>
                             <li>Gestión de la Complejidad.</li>
                         </ul>
-                    </div>
+                    </ModalBlendy>
                 </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -371,10 +364,9 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">El módulo se enfoca en conocer las base de datos y introducción a la ciberseguridad.</Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalBDC" buttonText="Detalles 4to Módulo">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Introducción a las Bases de Datos.</li>
                             <li>Fundamentos de Bases de Datos Relacionales (MySQL).</li>
                             <li>Tipos de Datos en MySQL.</li>
@@ -387,9 +379,8 @@ function Cursos({showDiv}){
                             <li>Introducción a la Ciberseguridad.</li>
                             <li>ORM Sequalize.</li>
                             <li>Trabajo Practico Integrador.</li>
-
                         </ul>
-                    </div>
+                    </ModalBlendy>
                 </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -408,7 +399,7 @@ function Cursos({showDiv}){
                     <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: '12px', px: 2 }}>
-                    <Typography variant="h6" component="span" color="white">
+                    <Typography variant="h6" component="span" color="white">                        
                     <div className="grupo-hover">
                         <span className="nombre-certificado">Informática Forense  </span>
 
@@ -427,10 +418,9 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Campamento gratuito online de INFORMÁTICA FORENSE. </Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalCampamento" buttonText="Detalles Campamento">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Conceptos de Informática Forense.</li>
                             <li>Proceso de Investigación Forense.</li>
                             <li>Aprender a Obtener el Hash.</li>
@@ -439,7 +429,7 @@ function Cursos({showDiv}){
                             <li>Herramientas HashTap, FTK Imager y Autopsy.</li>
                             <li>Montar una Imagen y Visualización Previa de una Unidad.</li>
                         </ul>
-                    </div>
+                    </ModalBlendy>
                 </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -478,10 +468,9 @@ function Cursos({showDiv}){
                     <Typography color="white">Está enfocado en enseñar las tecnologías fundamentales del frontend: HTML, CSS y JavaScript, con un enfoque práctico y orientado a proyectos.
                     </Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalCSS" buttonText="Detalles Bootcamp">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Fundamentos de HTML y CSS.</li>
                             <li>Layouts.</li>
                             <li>Taller Integrador.</li>
@@ -489,7 +478,7 @@ function Cursos({showDiv}){
                             <li>Responsive Design.</li>
                             <li>CSS moderno y Multimedia.</li>
                         </ul>
-                    </div>
+                    </ModalBlendy>
                 </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -528,17 +517,16 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">El objetivo de este curso avanzado es profundizar los conocimientos del uso de TypeScript,aplicar Programación Orientada a Objetos (POO) y el uso de ExpressJS. </Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalBackend" buttonText="Detalles Backend">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Conceptos.</li>
                             <li>Programación Orientada a Objetos (POO) en el contexto de TypeScript.</li>
                             <li>Extensión de JavaScript que añade Tipado Estático.</li>
                             <li>Uso de ExpressJS un Framework para Node.js.</li>
                             <li>Conceptos de API REST y Operaciones CRUD.</li>
                         </ul>
-                    </div>
+                    </ModalBlendy>
                 </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -577,10 +565,9 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Es una formación intensiva diseñada para preparar a personas desde cero en el mundo del Quality Assurance.</Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalQA" buttonText="Detalles QA">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Introducción a las Pruebas de Software.</li>
                             <li>Pruebas de Aplicaciones Web.</li>
                             <li>Pruebas de API.</li>
@@ -588,8 +575,8 @@ function Cursos({showDiv}){
                             <li>Uso de la Terminal y Línea de Comandos.</li>
                             <li>Fundamentos de Bases de Datos y SQL.</li>
                         </ul>
-                    </div>
-                </Typography>
+                    </ModalBlendy>
+                  </Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -627,11 +614,10 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">El objetivo de este módulo es que las alumnas obtengan una base sólida en Node.js, un entorno de ejecución de JavaScript del lado del servidor. </Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
-                             <li>Introducción a NodeJS.</li>
+                    <ModalBlendy modalId="modalNode" buttonText="Detalles Node.js">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
+                            <li>Introducción a NodeJS.</li>
                             <li>Fundamentos de NodeJs.</li>
                             <li>Persistencia de Datos.</li>
                             <li>Introducción a Servidores.</li>
@@ -644,8 +630,8 @@ function Cursos({showDiv}){
                             <li>Readline-sync y Módulo Crypto.</li>
                             <li>Trabajo Practico Integrador.</li>
                         </ul>
-                    </div>
-                </Typography>
+                    </ModalBlendy>
+                    </Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -683,15 +669,14 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Programa para aprender Inglés.</Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalIngles" buttonText="Detalles Inglés Slang">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Aplicación para aprender inglés.</li>
                             <li>Diferentes niveles.</li>
                         </ul>
-                    </div>
-                </Typography>
+                    </ModalBlendy>
+                    </Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -729,10 +714,9 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Este curso es para aprender Backend con java y Spring Booot, uno de los frameworks más populares en el desarrollo de aplicaciones Java.</Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalBJava" buttonText="Detalles Bootcamp Java">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Introducción a Spring Framework y Contendor DI.</li>
                             <li>Spring Boot.</li>
                             <li>Web Applications, RESTful Services y Diseño de APIs.</li>
@@ -748,8 +732,8 @@ function Cursos({showDiv}){
                             <li>Aspect-Oriented Programming con Spring AOP.</li>
                             <li>Trabajo Final.</li>
                         </ul>
-                    </div>
-                </Typography>
+                    </ModalBlendy>
+                     </Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -787,10 +771,9 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Este curso formativo está estructurado para guiar a los participantes desde los fundamentos de la informática hasta la programación con Javascript.</Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalJavascript" buttonText="Detalles JavaScript">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Introducción a la Computación.</li>
                             <li>Conociendo la Terminal, VSC, Git y GitHub.</li>
                             <li>Introducción a JavaScript.</li>
@@ -798,8 +781,8 @@ function Cursos({showDiv}){
                             <li>JavaScript Avanzado como Estructuras Condicionales, Funciones, Métodos de Arrays y String.</li>
                             <li>Trabajo Practico Integrador.</li>
                         </ul>
-                    </div>
-                </Typography>
+                    </ModalBlendy>
+                 </Typography>
                     </TimelineContent>
                 </TimelineItem> 
                 <TimelineItem>
@@ -838,10 +821,9 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Comprensión sólida de los principios fundamentales de los datos en la nube.</Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalBAzure" buttonText="Detalles Bootcamp Azure">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Conceptos Fundamentales de Datos, Roles, Servicios y Cargas de Trabajo.</li>
                             <li>Fundamentos de Datos Relacionales (SQL) y no relacionales (NoSQL).</li>
                             <li>Servicios de Bases de Datos Relacionales en Azure, Implementación, Conexión, Consultas y Herramientas.</li>
@@ -852,7 +834,7 @@ function Cursos({showDiv}){
                             <li>Migración de Datos on-premises a la Nube.</li>
                             <li>Buenas Prácticas de Implementación, Administración y Seguridad en Bases de Datos en la Nube.</li>
                         </ul>
-                    </div>
+                    </ModalBlendy>
                 </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -891,10 +873,9 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Compresión para Cualquier Industria no importando la especialidad.</Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalScrum" buttonText="Detalles Scrum">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Introducción a Scrum.</li>
                             <li>Componentes Claves</li>
                             <li>Roles en Scrum.</li>
@@ -903,8 +884,8 @@ function Cursos({showDiv}){
                             <li>Mejora Continua.</li>
                             <li>Aplicabilidad en Diferentes Industrias.</li>
                         </ul>
-                    </div>
-                </Typography>
+                    </ModalBlendy>
+                     </Typography>
                     </TimelineContent>
                 </TimelineItem> 
                 <TimelineItem>
@@ -944,10 +925,9 @@ function Cursos({showDiv}){
                     <Typography color="white">Python es un lenguaje de programación versátil y fácil de aprender
                     en CODEEN / ADA</Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalIPython" buttonText="Detalles Intensivo Python">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Fundamentos de la Programación.</li>
                             <li>Estructura de Control de Flujo I como Operadores, Condicionales if y Tablas de Verdad.</li>
                             <li>Tipos de Datos Complejos como Listas, Matrices, Tuplas, Diccionarios y Conjuntos.</li>
@@ -959,8 +939,8 @@ function Cursos({showDiv}){
                             <li>Clases y Objetos.</li>
                             <li>Trabajo Practico Integrador.</li>
                         </ul>
-                    </div>
-                </Typography>
+                    </ModalBlendy>
+                    </Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -999,10 +979,9 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Aprender GitHub Actions.</Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalGitHub" buttonText="Detalles GitHub Actions">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Introducción a GitHub Actions.</li>
                             <li>Configuración Básica.</li>
                             <li>Variables y Secretos.</li>
@@ -1011,8 +990,8 @@ function Cursos({showDiv}){
                             <li>Despliegues.</li>
                             <li>Monitoreo y Notificaciones.</li>
                         </ul>
-                    </div>
-                </Typography>
+                    </ModalBlendy>
+                    </Typography>
                     </TimelineContent>
                 </TimelineItem> 
                 <TimelineItem>
@@ -1050,10 +1029,9 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Aprender Python con Jupyter.</Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalCeroPython" buttonText="Detalles Python">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Introducción a Python.</li>
                             <li>Herramientas WinPython y Jupyter Notebook.</li>
                             <li>Sintaxis Básica y Tipos de Datos.</li>
@@ -1061,8 +1039,8 @@ function Cursos({showDiv}){
                             <li>Python y sus variables Locales , Globales y su Comportamiento.</li>
                             <li>Ejercicios</li>
                         </ul>
-                    </div>
-                </Typography>
+                    </ModalBlendy>
+                 </Typography>
                     </TimelineContent>
                 </TimelineItem> 
                 <TimelineItem>
@@ -1101,10 +1079,9 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Introducción a Python. </Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalIntPython" buttonText="Detalles Python">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Introducción a Python.</li>
                             <li>Herramienta Jupyter Notebook.</li>
                             <li>Fundamentos de Python.</li>
@@ -1120,10 +1097,9 @@ function Cursos({showDiv}){
                             <li>Lectura y Escritura de Archivos.</li>
                             <li>Importación y Creación de Módulos.</li>
                             <li>Paquetes.</li>
-
                         </ul>
-                    </div>
-                </Typography>
+                    </ModalBlendy>
+                    </Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -1162,10 +1138,9 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Conocer herramientas de IA generativa y Google Gemini.</Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalIA" buttonText="Detalles IA">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Breve Introducción a la IA.</li>
                             <li>Herramientas de Productividad de IA.</li>
                             <li>Aprender y comprender.</li>
@@ -1173,8 +1148,8 @@ function Cursos({showDiv}){
                             <li>Automatizar Tareas.</li>
                             <li>Cómo Crear Peticiones Efectivas.</li>
                         </ul>
-                    </div>
-                </Typography>
+                    </ModalBlendy>
+                 </Typography>
                     </TimelineContent>
                 </TimelineItem>               
                 <TimelineItem>
@@ -1212,10 +1187,9 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Curso de Excel básico a intermedio.</Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalExcel" buttonText="Detalles Excel">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Tablas de Datos.</li>
                             <li>Diferencias entre Rangos y Tablas.</li>
                             <li>Formato de Tablas.</li>
@@ -1226,8 +1200,8 @@ function Cursos({showDiv}){
                             <li>Funciones BUSCARV, BUSCARV con Tablas, SI.</li>
                             <li>Tablas Dinámicas.</li>
                         </ul>
-                    </div>
-                </Typography>
+                    </ModalBlendy>
+                    </Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -1266,10 +1240,9 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Aprender React.js en Código facilito</Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalReact" buttonText="Detalles React">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Fundamentos de JavaScript.</li>
                             <li>Programación Funcional.</li>
                             <li>Introducción a React y JSX.</li>
@@ -1286,8 +1259,8 @@ function Cursos({showDiv}){
                             <li>Técnicas de Optimización.</li>
                             <li>Proyecto Final.</li>
                         </ul>
-                    </div>
-                </Typography>
+                    </ModalBlendy>
+                    </Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -1327,17 +1300,15 @@ function Cursos({showDiv}){
                     web completamente interactiva y funcional desde cero utilizando
                     JavaScript.</Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalBedu" buttonText="Detalles BEDU">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Desarrollo Web.</li>
                             <li>JavaScript.</li>
                             <li>Frotend y Backend de una aplicación Web.</li>
-
                         </ul>
-                    </div>
-                </Typography>
+                    </ModalBlendy>
+                    </Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -1362,13 +1333,13 @@ function Cursos({showDiv}){
                     <Typography color="white">Para conocer y el comó implementar la norma ISO 9001:2015 en
                     una empresa.</Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
+                    <ModalBlendy modalId="modalISO" buttonText="Detalles ISO">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
+                                <li>Conocer y el Cómo implementar la norma ISO 9001:2015 en una empresa.</li>
 
-                        <ul className="cuadro-tema list-disc list-inside">
-                            <li>Conocer y el Cómo implementar la norma ISO 9001:2015 en una empresa.</li>
                         </ul>
-                    </div>
+                    </ModalBlendy>                 
                 </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -1394,15 +1365,14 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Aprender a operar un montacargas.</Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalMontacargas" buttonText="Detalles Montacargas">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Conceptos básicos de un montacarga</li>
                             <li>Aprender a Operar un Montacargas</li>
                         </ul>
-                    </div>
-                </Typography>
+                    </ModalBlendy> 
+                    </Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -1440,10 +1410,9 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Diplomado en UNIR.</Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalSeguridad" buttonText="Detalles Diplomado Seguridad">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Detección y Prevención de Intrusiones</li>
                             <li>Protocolos de Comunicación</li>
                             <li>Configuración Segura de Sistemas Operativos</li>
@@ -1451,7 +1420,7 @@ function Cursos({showDiv}){
                             <li>Ciclo de Vida Seguro del Desarrollo de Software</li>
                             <li>Pruebas de penetración en Aplicaciones Web</li>
                         </ul>
-                    </div>
+                    </ModalBlendy>
                 </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -1490,18 +1459,17 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Diplomado en UNIR.</Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalGSeguridad" buttonText="Detalles Diplomado Gestión Seguridad">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Fundamentos de la Seguridad de la Información</li>
                             <li>Responsabilidad Civil y Penal de Delitos Informáticos</li>
                             <li>Protección de Datos Personales y Privacidad Digital</li>
                             <li>Gestión de Riesgos Tecnológicos</li>
                             <li>Aspectos Éticos y Sociales</li>
                         </ul>
-                    </div>
-                </Typography>
+                    </ModalBlendy>
+                    </Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -1528,14 +1496,13 @@ function Cursos({showDiv}){
                         conocer los diferentes tipos de ataques cibernéticos y como
                         resolver las vulnerabilidades de una red.</Typography>
                     <Typography color="white">
-                    <div className="grupo-hover">
-                        <span className="nombre-tema">Temas:</span>
-
-                        <ul className="cuadro-tema list-disc list-inside">
+                    <ModalBlendy modalId="modalHacking" buttonText="Detalles Hacking Day">
+                        <h3 className="text-lg font-bold">Temas</h3>
+                        <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Conocer los Diferentes Tipos de Ataques Cibernéticos.</li>
                             <li>Resolver las Vulnerabilidades de una Red</li>
                         </ul>
-                    </div>
+                    </ModalBlendy>        
                 </Typography>
                     </TimelineContent>
                 </TimelineItem>
@@ -1545,5 +1512,7 @@ function Cursos({showDiv}){
         )}</>
     )
 }
+
+
 
 export default Cursos;
