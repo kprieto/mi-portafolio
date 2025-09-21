@@ -77,7 +77,7 @@ function Cursos({showDiv}){
                     <Typography color="white">Se aprendio los temas fundamentales de Java.
                     </Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalJava" buttonText="Detalles Java">
+                    <ModalBlendy modalId="modalJava" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Introducción a Java.</li>
@@ -117,7 +117,7 @@ function Cursos({showDiv}){
                         ni perturbarlo.
                     </Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalInformatica" buttonText="Detalles Informática Forense">
+                    <ModalBlendy modalId="modalInformatica" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Laboratorios.</li>
@@ -178,7 +178,7 @@ function Cursos({showDiv}){
                     educadores y comunidades gracias al poder de la tecnología, la
                     educación y las oportunidades profesionales.</Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalFPython" buttonText="Detalles Fundamentos de Python">
+                    <ModalBlendy modalId="modalFPython" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Introducción a Python y a la Programación Informática.</li>
@@ -212,7 +212,7 @@ function Cursos({showDiv}){
                     <Typography color="white">Está diseñado para darte una base sólida en computación en la nube, 
                         especialmente en el ecosistema de Microsoft Azure.</Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalAzure" buttonText="Detalles Azure">
+                    <ModalBlendy modalId="modalAzure" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Conceptos Básicos de la Nube.</li>
@@ -249,7 +249,7 @@ function Cursos({showDiv}){
                     <Typography color="white">Está diseñado para que domines los fundamentos de 
                         la nube de Amazon Web Services (AWS).</Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalAws" buttonText="Detalles AWS">
+                    <ModalBlendy modalId="modalAws" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Introducción a la Nube de AWS.</li>
@@ -283,7 +283,7 @@ function Cursos({showDiv}){
                         hasta un nivel práctico y profesional, ideal si estás consolidando 
                         tus habilidades para backend, automatización o análisis de datos.</Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalPython" buttonText="Detalles Python">
+                    <ModalBlendy modalId="modalPython" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                                 <li>Introducción a Python.</li>
@@ -326,7 +326,7 @@ function Cursos({showDiv}){
                         como las competencias interpersonales, algo que encaja perfecto con 
                         el enfoque en branding, emprendimiento y seguridad en sistemas.</Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalSSHD" buttonText="Detalles Diplomado">
+                    <ModalBlendy modalId="modalSSHD" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Inteligencia Emocional.</li>
@@ -364,7 +364,7 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">El módulo se enfoca en conocer las base de datos y introducción a la ciberseguridad.</Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalBDC" buttonText="Detalles 4to Módulo">
+                    <ModalBlendy modalId="modalBDC" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Introducción a las Bases de Datos.</li>
@@ -418,7 +418,7 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Campamento gratuito online de INFORMÁTICA FORENSE. </Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalCampamento" buttonText="Detalles Campamento">
+                    <ModalBlendy modalId="modalCampamento" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Conceptos de Informática Forense.</li>
@@ -468,7 +468,7 @@ function Cursos({showDiv}){
                     <Typography color="white">Está enfocado en enseñar las tecnologías fundamentales del frontend: HTML, CSS y JavaScript, con un enfoque práctico y orientado a proyectos.
                     </Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalCSS" buttonText="Detalles Bootcamp">
+                    <ModalBlendy modalId="modalCSS" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Fundamentos de HTML y CSS.</li>
@@ -517,7 +517,7 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">El objetivo de este curso avanzado es profundizar los conocimientos del uso de TypeScript,aplicar Programación Orientada a Objetos (POO) y el uso de ExpressJS. </Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalBackend" buttonText="Detalles Backend">
+                    <ModalBlendy modalId="modalBackend" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Conceptos.</li>
@@ -565,7 +565,7 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Es una formación intensiva diseñada para preparar a personas desde cero en el mundo del Quality Assurance.</Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalQA" buttonText="Detalles QA">
+                    <ModalBlendy modalId="modalQA" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Introducción a las Pruebas de Software.</li>
@@ -614,7 +614,7 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">El objetivo de este módulo es que las alumnas obtengan una base sólida en Node.js, un entorno de ejecución de JavaScript del lado del servidor. </Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalNode" buttonText="Detalles Node.js">
+                    <ModalBlendy modalId="modalNode" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Introducción a NodeJS.</li>
@@ -669,7 +669,7 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Programa para aprender Inglés.</Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalIngles" buttonText="Detalles Inglés Slang">
+                    <ModalBlendy modalId="modalIngles" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Aplicación para aprender inglés.</li>
@@ -714,7 +714,7 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Este curso es para aprender Backend con java y Spring Booot, uno de los frameworks más populares en el desarrollo de aplicaciones Java.</Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalBJava" buttonText="Detalles Bootcamp Java">
+                    <ModalBlendy modalId="modalBJava" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Introducción a Spring Framework y Contendor DI.</li>
@@ -771,7 +771,7 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Este curso formativo está estructurado para guiar a los participantes desde los fundamentos de la informática hasta la programación con Javascript.</Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalJavascript" buttonText="Detalles JavaScript">
+                    <ModalBlendy modalId="modalJavascript" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Introducción a la Computación.</li>
@@ -821,7 +821,7 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Comprensión sólida de los principios fundamentales de los datos en la nube.</Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalBAzure" buttonText="Detalles Bootcamp Azure">
+                    <ModalBlendy modalId="modalBAzure" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Conceptos Fundamentales de Datos, Roles, Servicios y Cargas de Trabajo.</li>
@@ -873,7 +873,7 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Compresión para Cualquier Industria no importando la especialidad.</Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalScrum" buttonText="Detalles Scrum">
+                    <ModalBlendy modalId="modalScrum" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Introducción a Scrum.</li>
@@ -925,7 +925,7 @@ function Cursos({showDiv}){
                     <Typography color="white">Python es un lenguaje de programación versátil y fácil de aprender
                     en CODEEN / ADA</Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalIPython" buttonText="Detalles Intensivo Python">
+                    <ModalBlendy modalId="modalIPython" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Fundamentos de la Programación.</li>
@@ -979,7 +979,7 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Aprender GitHub Actions.</Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalGitHub" buttonText="Detalles GitHub Actions">
+                    <ModalBlendy modalId="modalGitHub" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Introducción a GitHub Actions.</li>
@@ -1029,7 +1029,7 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Aprender Python con Jupyter.</Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalCeroPython" buttonText="Detalles Python">
+                    <ModalBlendy modalId="modalCeroPython" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Introducción a Python.</li>
@@ -1079,7 +1079,7 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Introducción a Python. </Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalIntPython" buttonText="Detalles Python">
+                    <ModalBlendy modalId="modalIntPython" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Introducción a Python.</li>
@@ -1138,7 +1138,7 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Conocer herramientas de IA generativa y Google Gemini.</Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalIA" buttonText="Detalles IA">
+                    <ModalBlendy modalId="modalIA" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Breve Introducción a la IA.</li>
@@ -1187,7 +1187,7 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Curso de Excel básico a intermedio.</Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalExcel" buttonText="Detalles Excel">
+                    <ModalBlendy modalId="modalExcel" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Tablas de Datos.</li>
@@ -1240,7 +1240,7 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Aprender React.js en Código facilito</Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalReact" buttonText="Detalles React">
+                    <ModalBlendy modalId="modalReact" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Fundamentos de JavaScript.</li>
@@ -1300,7 +1300,7 @@ function Cursos({showDiv}){
                     web completamente interactiva y funcional desde cero utilizando
                     JavaScript.</Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalBedu" buttonText="Detalles BEDU">
+                    <ModalBlendy modalId="modalBedu" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Desarrollo Web.</li>
@@ -1365,7 +1365,7 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Aprender a operar un montacargas.</Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalMontacargas" buttonText="Detalles Montacargas">
+                    <ModalBlendy modalId="modalMontacargas" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Conceptos básicos de un montacarga</li>
@@ -1410,7 +1410,7 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Diplomado en UNIR.</Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalSeguridad" buttonText="Detalles Diplomado Seguridad">
+                    <ModalBlendy modalId="modalSeguridad" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Detección y Prevención de Intrusiones</li>
@@ -1459,7 +1459,7 @@ function Cursos({showDiv}){
                     </Typography>
                     <Typography color="white">Diplomado en UNIR.</Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalGSeguridad" buttonText="Detalles Diplomado Gestión Seguridad">
+                    <ModalBlendy modalId="modalGSeguridad" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Fundamentos de la Seguridad de la Información</li>
@@ -1496,7 +1496,7 @@ function Cursos({showDiv}){
                         conocer los diferentes tipos de ataques cibernéticos y como
                         resolver las vulnerabilidades de una red.</Typography>
                     <Typography color="white">
-                    <ModalBlendy modalId="modalHacking" buttonText="Detalles Hacking Day">
+                    <ModalBlendy modalId="modalHacking" buttonText="Detalles">
                         <h3 className="text-lg font-bold">Temas</h3>
                         <ul className="list-disc list-inside space-y-1 text-gray-700">
                             <li>Conocer los Diferentes Tipos de Ataques Cibernéticos.</li>
